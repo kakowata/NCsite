@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>導入事例｜有限会社長靴倶楽部</title>
+<title>導入事例｜株式会社Signite（シグナイト）</title>
 <meta name="keywords" content="府中,導入事例、活用事例,データベース構築,Google Maps,システム構築, クラウド, Google Cloud Platform, App Engine, Compute Engine">
-<meta name="description" content="有限会社長靴倶楽部ではGoogle Mapsとデータベースを連携させた情報管理システムを構築しています。">
+<meta name="description" content="株式会社Signite（シグナイト）ではGoogle Mapsとデータベースを連携させた情報管理システムを構築しています。">
 <meta name="format-detection" content="telephone=no">
 <!-- facebook OGP -->
 <!--<meta property="og:title" content="" />
@@ -24,7 +24,7 @@
 <link rel="stylesheet" type="text/css" href="css/material.min.css">
 <link rel="stylesheet" href="css/liquid-slider.css">
 <link href="css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <link href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet"  type="text/css">

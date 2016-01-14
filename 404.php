@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>404｜有限会社長靴倶楽部</title>
-<meta name="keywords" content="Google, Google Maps, システム開発, GIS, 地理情報システム">
-<meta name="description" content="Google Maps を利用したWebシステム開発、Eコマースにおけるコンサルティングなど、クラウドを利活用した各種Webサービスのご提案をいたします。iPadを使った移動型情報登録システムやバーコードを使った登録システム、ECサイトの構築など。">
+<title>404｜株式会社Signite（シグナイト）</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
 <meta name="format-detection" content="telephone=no">
 <!-- facebook OGP -->
 <!--<meta property="og:title" content="" />
@@ -17,9 +17,8 @@
 <meta property="og:locale" content="ja" />
 --><!-- END facebook OGP -->
 <!-- style -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" type="text/css" href="css/common.css">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -70,8 +69,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 														<p>●ページの改廃に伴う、該当するURLの変更による問題。<br />
 																（2014年6月30日のリニューアルにより、URLの変更が行われています。）<br />
 																●タイプミスによる問題。<br />
-																●全角によるタイプミスの問題。（例：○nagagutsu-club →×ｎａｇａｇｕｔｓｕ－ｃｌｕｂ）</p>
-														<p>有限会社 長靴倶楽部トップページは<a href="index.php">こちら</a></p>
+																●全角によるタイプミスの問題。（例：○Signite →×Ｓｉｇｎｉｔｅ）</p>
+														<p>株式会社Signiteトップページは<a href="index.php">こちら</a></p>
 												</div>
 										</section>
 								</div>
@@ -89,20 +88,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<!-- mdl-layout mdl-js-layout mdl-layout--fixed-header end--> 
 </div>
 <!--allContent end -->
-<link rel="stylesheet" type="text/css" href="css/material.min.css">
-<link rel="stylesheet" href="css/liquid-slider.css">
-<link href="css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="/css/material.min.css">
+<link rel="stylesheet" href="/css/liquid-slider.css">
+<link href="/css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.fs.boxer.js"></script> 
-<script src="js/jquery.easing.min.js"></script> 
+<script src="/js/bootstrap.min.js"></script> 
+<script src="/js/jquery.fs.boxer.js"></script> 
+<script src="/js/jquery.easing.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script> 
-<script src="js/jquery.liquid-slider.min.js"></script> 
-<script src="js/material.min.js" type="text/javascript"></script> 
-<script src="js/common.js" type="text/javascript"></script>
+<script src="/js/jquery.liquid-slider.min.js"></script> 
+<script src="/js/material.min.js" type="text/javascript"></script> 
+<script src="/js/common.js" type="text/javascript"></script>
 </body>
 </html>

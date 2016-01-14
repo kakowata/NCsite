@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>個人情報保護方針｜有限会社長靴倶楽部</title>
+<title>個人情報保護方針｜株式会社Signite（シグナイト）</title>
 <meta name="keywords" content="府中,データベース構築,Google Maps,業務効率化,残業削減,システム開発,個人情報保護方針">
 <meta name="description" content="個人情報保護方針">
 <meta name="format-detection" content="telephone=no">
@@ -41,7 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="row grey">
 				<div class="col-sm-12 col-xs-12">
 						<div id="security"> 
-								
 								<!-- topcongainer ここから　-->
 								<div class="topContent">
 										<div class="container mainBox"> 
@@ -61,12 +60,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										</div>
 								</div>
 								<!-- topContent ここまで　-->
-								
 								<div class="container mainBox">
 										<section id="page2">
 												<div class="rsecurityBox">
 														<div class="row">
-																<div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+																<div class="col-lg-10 col-md-10 col-sm-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-0">
 																		<p class="securityText">当社は、個人情報保護に関しての方針を下記の通り定め、安全で豊かな情報社会に貢献するために<br>
 																				全社員が一体となって個人情報の適切な取り扱いを徹底いたします。</p>
 																		<table id="security_table">
@@ -97,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		<p>2005年2月15日制定<br>
 																				2006年12月20日改訂<br>
 																				2008年7月1日改訂<br>
-																				有限会社 長靴倶楽部<br>
+																				株式会社Signite<br>
 																				代表取締役 原田 智行</p>
 																</div>
 														</div>
@@ -113,13 +111,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<!-- footer -->
 		<?php include("footer.php"); ?>
 		</div>
-		<!-- mdl-layout mdl-js-layout mdl-layout--fixed-header end--> 
 </div>
 <!--allContent end --> 
 <link rel="stylesheet" type="text/css" href="css/material.min.css">
 <link rel="stylesheet" href="css/liquid-slider.css">
 <link href="css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 

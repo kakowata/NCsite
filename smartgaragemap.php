@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>地図上で必要な情報を見える化！｜SmartGarage Map｜有限会社長靴倶楽部</title>
+<title>地図上で必要な情報を見える化！｜SmartGarage Map｜株式会社Signite（シグナイト）</title>
 <meta name="keywords" content="府中,Google Maps,業務効率化,残業削減,地図上操作,データ管理,自由自在,GIS,見える化,一元管理,視える化,可視化">
 <meta name="description" content="Google Maps上にデータを自由自在に配置、管理ができるSmartGarageMapで業務の「見える化」を！">
 <meta name="format-detection" content="telephone=no">
@@ -49,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<div class="container mainBox"> 
 														<!--PCのみ表示-->
 														<div class="hidden-xs">
-																<div class="pan"><a href="index.php">HOME</a>&nbsp;&gt;&nbsp;SmartGarage Map</div>
+																<div class="pan"><a href="index.php">HOME</a>&nbsp;&gt;&nbsp;<a href="smartgarage.php">SmartGarage</a>&nbsp;&gt;&nbsp;SmartGarage Map</div>
 														</div>
 														<div class="row">
 																<div class="col-sm-12 col-xs-12 topText">
@@ -64,17 +64,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										</div>
 										<!-- topContent ここまで　--> 
 										<!--スマホのみ表示-->
-										<div class="visible-xs"> <img src="images/smartgarage/map/sgd-top.jpg" width="100%" alt=""> </div>
+										<div class="visible-xs"> <img src="images/smartgarage/map/sgd-top.jpg" width="100%" height="100%" alt=""> </div>
 								</div>
 								<!-- sgmTopここまで -->
 								
-								<div id="sgdContent greay">
+								<div id="sgdContent" class="greay">
 										<div class="row" id="sg_Map">
 												<div class="content_box">
 														<div class="container mainBox">
 																<div class="col-sm-10 col-sm-offset-1 col-xs-12">
 																		<div class="col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-4">
-																				<p style="text-align: center; padding: 10px 0;"> <img src="images/smartgarage/sgmap.png" width="120" alt=""> </p>
+																				<p style="text-align: center; padding: 10px 0;"> <img src="images/smartgarage/sgmap.png" width="120" height="100%" alt=""> </p>
 																		</div>
 																		<div class="col-sm-8 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-left">
 																				<p style="padding: 10px 0;">「SmartGarage Map」は、クラウド環境とGoogle Mapsを利用した現地調査ツールです。タブレットで現地からすぐに情報登録。さらに撮影した写真も位置情報と合わせてアップできるので、正確なデータ管理が可能。<br>
@@ -122,7 +122,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																						入力作業はタブレットやスマートフォンでもできるので、持ち運びに便利なデバイスで作業ができます。<br>
 																						クラウド環境でリアルタイムに同期できるので事務所に帰ってからの入力作業がなくなり残業するリスクを軽減できます。</p>
 																		</div>
-																		<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="images/smartgarage/map/sgm_img01.png" width="100%" alt=""></div>
+																		<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="images/smartgarage/map/sgm_img01.png" width="100%" height="100%" alt=""></div>
 																</div>
 																<div class="col-sm-12 col-xs-12">
 																		<div class="col-sm-8 col-xs-12">
@@ -132,7 +132,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																						テキスト入力から、項目が決まっていればセレクトボックスにもでき、入力内容によって自由自在です。<br>
 																						必要なときに必要な項目だけ！どんな業務にも最適化可能です。</p>
 																		</div>
-																		<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="images/smartgarage/map/sgm_img02.png" width="100%" alt=""></div>
+																		<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="images/smartgarage/map/sgm_img02.png" width="100%" height="100%" alt=""></div>
 																</div>
 																<div class="col-sm-12 col-xs-12">
 																		<div class="col-sm-8 col-xs-12">
@@ -140,7 +140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																						帳票はワンボタンで簡単出力</h3>
 																				<p class="text-left">入力したデータはそのまま帳票出力ができるので、データ整理や項目の調整が必要ありません。また、誰でもボタンひとつで帳票を出力できるため形式がバラバラになることもありません。</p>
 																		</div>
-																		<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="images/smartgarage/map/sgm_img03.png" width="100%" alt=""></div>
+																		<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="images/smartgarage/map/sgm_img03.png" width="100%" height="100%" alt=""></div>
 																</div>
 														</div>
 												</div>
@@ -150,36 +150,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																<div class="container mainBox2">
 																		<div class="col-sm-12 col-xs-12 mainBox">
 																				<div class="col-md-4 col-sm-12 col-xs-12">
-																						<div class="smg_box col-sm-6 col-sm-12">
+																						<div class="smg_box col-md-12 col-sm-6 col-sm-12">
 																								<h3>写真は関連情報と<br>
 																										一緒に管理</h3>
 																								<p>写真データも撮影日だけでなく撮影位置や撮影方向など関連する入力情報を自動で一元管理します。</p>
 																						</div>
-																						<div class="smg_box col-sm-6 col-sm-12">
+																						<div class="smg_box col-md-12 col-sm-6 col-sm-12">
 																								<h3>図形の配置も<br>
 																										かんたん！</h3>
 																								<p>Google Maps上にポイント、ライン、ポリゴン図形が自由に配置できます。描画は指でポイントをタップしていくだけの簡単操作。ポリゴンでは面積、ラインでは延長も表示します。</p>
 																						</div>
 																				</div>
 																				<div class="col-md-4 col-sm-12 col-xs-12">
-																						<div class="smg_box col-sm-6 col-sm-12">
+																						<div class="smg_box col-md-12 col-sm-6 col-sm-12">
 																								<h3>複数人数での<br>
 																										同時操作が可能</h3>
 																								<p>ユーザ管理機能により、複数人同時に登録、編集作業が可能です。同じデータを同時に編集できないよう排他処理によって制御。権限に応じて管理メニューへの制限も行えます。</p>
 																						</div>
-																						<div class="smg_box col-sm-6 col-sm-12">
+																						<div class="smg_box col-md-12 col-sm-6 col-sm-12">
 																								<h3>調査結果はGISで<br>
 																										再利用</h3>
 																								<p>CSVだけでなく、KMLによる出力も標準装備。データをそのままGISへ移行できます。</p>
 																						</div>
 																				</div>
 																				<div class="col-md-4 col-sm-12 col-xs-12">
-																						<div class="smg_box col-sm-6 col-sm-12">
+																						<div class="smg_box col-md-12 col-sm-6 col-sm-12">
 																								<h3>電波の届かない<br>
 																										場所でも安心</h3>
 																								<p>オフライン地域でもデータを持ち出す感覚で写真の撮影や属性値の登録ができます。位置情報はGPSで取得。</p>
 																						</div>
-																						<div class="smg_box col-sm-6 col-sm-12">
+																						<div class="smg_box col-md-12 col-sm-6 col-sm-12">
 																								<h3>調査データは<br>
 																										瞬時に共有</h3>
 																								<p>クラウドサーバを経由して、登録したデータはリアルタイムに管理者が確認できます。遠隔地でも操作できるので、いつでもどこでも最新のデータを共有できます。</p>
@@ -192,15 +192,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<div class="content_box">
 														<h2>主な機能</h2>
 														<div class="container mainBox2" style="position: relative">
-																<div class="col-sm-12 hidden-xs mainBox"> <img src="images/smartgarage/map/kinou_img01.png" width="100%" alt="SGMの主な機能">
+														<p><img src="images/smartgarage/map/yubi.png" width="40" height="100%" alt="">　マークをクリックすると機能の詳細を確認できます。</p>
+																<div class="col-sm-12 hidden-xs mainBox"> <img src="images/smartgarage/map/SmartGarageMap.png" width="100%" height="100%" alt="">
 																		<p>※画面は開発中のイメージです</p>
-																		<span id="map_item01"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="right" data-title="条件表示・検索機能" data-content="条件を指定してMap状に表示させる内容を変更できます。<ul>
-																				<li><i class='material-icons'>settings</i> 目的地検索</li>
-																				<li><i class='material-icons'>settings</i> 日付検索</li>
-																				<li><i class='material-icons'>settings</i> 地域表示</li>
-																		</ul>"><img src="images/smartgarage/map/mark_off.png" width="60" alt="SGMの主な機能"></a></span> <span id="map_item02"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="top" data-title="ブックマーク機能" data-content="お気に入りの情報を保存しておけばいつでもリストから確認できます。"><img src="images/smartgarage/map/mark_off.png" width="60" alt="SGMの主な機能"></a></span> <span id="map_item03"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="bottom" data-title="ポイント表示・登録" data-content="Map状に置いたポイントから情報の登録を行えます。<p style='text-align:center'><img src='images/smartgarage/sgmap.png' width='60' alt=''></p>"><img src="images/smartgarage/map/mark_off.png" width="60" alt="SGMの主な機能"></a></span> <span id="map_item04"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="top" data-title="ポリゴン表示・登録" data-content="ポリゴンで表示。"><img src="images/smartgarage/map/mark_off.png" width="60" alt="SGMの主な機能"></a></span> <span id="map_item05"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="left" data-title="ストリートビューの表示" data-content="目的物周辺のストリートビューを見ることができます。"><img src="images/smartgarage/map/mark_off.png" width="60" alt="SGMの主な機能"></a></span> <span id="map_item06"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="left" data-title="管理画面機能" data-content="項目の変更や写真の登録などを行えます。"><img src="images/smartgarage/map/mark_off.png" width="60" alt="SGMの主な機能"></a></span> </div>
+																		<p id="map_item01" class="map_item"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="bottom" data-title="条件表示・検索機能" data-content="条件を指定してMap上に表示させる内容を変更できます。&lt;br&gt;&lt;i class='material-icons'&gt;settings&lt;/i&gt; 名称検索&lt;br&gt;&lt;i class='material-icons'&gt;settings&lt;/i&gt; 登録日付検索&lt;br&gt;&lt;i class='material-icons'&gt;settings&lt;/i&gt; 地域検索"><img src="images/smartgarage/map/yubi.png" width="80" height="100%" alt="条件表示・検索機能" class="point"></a></p>
+																		<p id="map_item02" class="map_item"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="top" data-title="ブックマーク機能" data-content="お気に入りの情報を保存しておけばいつでもリストから確認できます。"><img src="images/smartgarage/map/yubi.png" width="80" height="100%" alt="ブックマーク機能" class="point"></a></p>
+																		<p id="map_item03" class="map_item"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="right" data-title="ポイント・ポリゴン表示" data-content="Map上に置いたポイントとポリゴンの表示・非表示を行えます。&lt;br&gt;&lt;img src='images/smartgarage/sgmap.png' width='60' height='100%' alt='ポリゴン'&gt;"><img src="images/smartgarage/map/yubi.png" width="80" height="100%" alt="ポイント・ポリゴン表示" class="point"></a></p>
+																		<p id="map_item04" class="map_item"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="top" data-title="登録した情報を見る" data-content="ポイントの「基本情報」や関連「写真」の一覧を見ることができます。&lt;br&gt;&lt;img src='images/smartgarage/map/photo.png' width='128' alt=''&gt;"><img src="images/smartgarage/map/yubi.png" width="80" height="100%" alt="登録した情報を見る" class="point"></a></p>
+																		<p id="map_item05" class="map_item"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="right" data-title="ストリートビューの表示" data-content="目的物周辺のストリートビューを見ることができます。&lt;br&gt;&lt;img src='images/smartgarage/map/street_view.png' width='200' alt=''&gt;"><img src="images/smartgarage/map/yubi.png" width="80" height="100%" alt="ストリートビューの表示" class="point"></a></p>
+																		<p id="map_item06" class="map_item"><a href="javascript:void(0);" data-toggle="popover" data-html="true" data-placement="left" data-title="管理画面機能" data-content="項目の変更や写真の登録など、情報の新規登録も行えます。ユーザーごとに権限を付与することができます。&lt;br&gt;&lt;i class='material-icons'&gt;settings&lt;/i&gt; ユーザマスタ&lt;br&gt;&lt;i class='material-icons'&gt;settings&lt;/i&gt; 管理番号マスタ&lt;br&gt;&lt;i class='material-icons'&gt;settings&lt;/i&gt; 入力項目マスタ&lt;br&gt;&lt;i class='material-icons'&gt;settings&lt;/i&gt; システム基本設定"><img src="images/smartgarage/map/yubi.png" width="80" height="100%" alt="管理画面機能" class="point"></a></p> </div>
 																<div class="col-xs-12 visible-xs mainBox mgB-50">
-																		<p><img src="images/smartgarage/map/kinou_img01_sm.png" width="100%" alt="SGMの主な機能"></p>
+																		<p><img src="images/smartgarage/map/kinou_img01_sm.png" width="100%" height="100%" alt=""></p>
 																		<p>※画面は開発中のイメージです</p>
 																		<ul>
 																				<li><i class="material-icons">settings</i> 条件表示・検索機能</li>
@@ -212,10 +214,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		</ul>
 																</div>
 																<div class="col-sm-12 col-xs-12 mainBox">
-																		<div class="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 mgB-50 pa-15"> <img src="images/smartgarage/map/kinou_img02.png" width="100%" alt="">
+																		<div class="col-md-6 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 mgB-50 pa-15"> <img src="images/smartgarage/map/tab_01.png" width="100%" height="100%" alt="">
 																				<p>ポイントの詳細情報を表示・編集できます</p>
 																		</div>
-																		<div class="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 pa-15"> <img src="images/smartgarage/map/kinou_img03.png" width="100%" alt="">
+																		<div class="col-md-6 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 pa-15"> <img src="images/smartgarage/map/tab_02.png" width="100%" height="100%" alt="">
 																				<p>写真の表示・編集・追加もできます</p>
 																		</div>
 																</div>
@@ -257,11 +259,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										</div>--> 
 										<!--PC表示-->
 										<div class="hidden-xs">
-												<div class="center"> <img src="images/smartgarage/sg_in_end.png" width="50%" alt="デモ環境をご用意しております。"> </div>
+												<div class="center"> <img src="images/smartgarage/sg_in_end.png" width="50%" height="100%" alt="デモ環境をご用意しております。"> </div>
 										</div>
 										<!--スマホ表示-->
 										<div class="visible-xs">
-												<div class="center"> <img src="images/smartgarage/sg_in_end.png" width="100%" alt="デモ環境をご用意しております。"> </div>
+												<div class="center"> <img src="images/smartgarage/sg_in_end.png" width="100%" height="100%" alt="デモ環境をご用意しております。"> </div>
 										</div>
 										
 										<!-- Topへ戻る -->
@@ -279,7 +281,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--allContent end -->
 <link rel="stylesheet" href="css/liquid-slider.css">
 <link href="css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
@@ -290,5 +292,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="js/jquery.liquid-slider.min.js"></script> 
 <script src="js/material.min.js" type="text/javascript"></script> 
 <script src="js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+				$('[data-toggle="popover"]').popover({
+						//trigger: 'hover', // click,hover,focus,manualを選択出来る
+						html: true, // HTMLオプションをtrueにする
+				});
+});
+</script>
 </body>
 </html>

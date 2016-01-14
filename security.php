@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>情報資産の重要性を十分に認識し管理することを実行します。｜情報セキュリティ方針｜有限会社長靴倶楽部</title>
+<title>情報資産の重要性を十分に認識し管理することを実行します。｜情報セキュリティ方針｜株式会社Signite（シグナイト）</title>
 <meta name="keywords" content="府中,データベース構築,Google Maps,業務効率化,残業削減,システム開発,情報セキュリティ方針">
-<meta name="description" content="有限会社長靴倶楽部は情報資産の重要性を十分に認識し管理することを実行します。">
+<meta name="description" content="株式会社Signite（シグナイト）は情報資産の重要性を十分に認識し管理することを実行します。">
 <meta name="format-detection" content="telephone=no">
 <!-- facebook OGP -->
 <!--<meta property="og:title" content="" />
@@ -41,7 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="row grey">
 				<div class="col-sm-12 col-xs-12">
 						<div id="security"> 
-								
 								<!-- topcongainer ここから　-->
 								<div class="topContent">
 										<div class="container mainBox"> 
@@ -56,7 +55,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 														</div>
 												</div>
 												<div class="col-sm-6 col-xs-12 iconBox"> 
-														<!--<img class="icon" src="images/smartgarage/topImage.png" width="79%" alt="SmartGarage">--> 
 												</div>
 										</div>
 								</div>
@@ -65,8 +63,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										<div id="page2">
 												<div class="rsecurityBox">
 														<div class="row">
-																<div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-																		<p class="securityText">有限会社長靴倶楽部（以下、当社といいます。）は、コンテンツの運営、データベースを伴うシステム開発、ホームページの企画制作等の業務にあたり、お客様からお預かりする情報をはじめ、情報資産の重要性を十分に認識し管理することが当社の社会的責務であると考え、以下の情報セキュリティ方針を定め、これを実行し、かつ、維持いたします。</p>
+																<div class="col-lg-10 col-md-10 col-sm-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-0">
+																		<p class="securityText">株式会社Signite（シグナイト）（以下、当社といいます。）は、コンテンツの運営、データベースを伴うシステム開発、ホームページの企画制作等の業務にあたり、お客様からお預かりする情報をはじめ、情報資産の重要性を十分に認識し管理することが当社の社会的責務であると考え、以下の情報セキュリティ方針を定め、これを実行し、かつ、維持いたします。</p>
 																		<table id="security_table">
 																				<tr>
 																						<th>（1）</th>
@@ -100,7 +98,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																</div>
 																<div class="sign">
 																		<p>制定日：2014年10月1日<br>
-																				有限会社 長靴倶楽部<br>
+																				株式会社Signite<br>
 																				代表取締役 原田 智行</p>
 																</div>
 														</div>
@@ -117,12 +115,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<?php include("footer.php"); ?>
 		</div>
 </div>
-<!-- mdl-layout mdl-js-layout mdl-layout--fixed-header end--> 
 <!--allContent end -->
 <link rel="stylesheet" type="text/css" href="css/material.min.css">
 <link rel="stylesheet" href="css/liquid-slider.css">
 <link href="css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 

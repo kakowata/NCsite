@@ -16,7 +16,7 @@ $templates = array(
 	'mail_admin' => 'mailtemplate_admin.tpl',
 	'mail_user' => 'mailtemplate_user.tpl',
 	//http://から絶対URLで記載
-	'thanks' => 'http://www.nagagutsu-club.co.jp/form/contact/thanks.php',
+	'thanks' => 'http://signaite.jp/form/contact/thanks.php',
 	//戻るボタンのvalue htmlと合わせる
 	'backbtn_value' => '内容を修正する',
 );
@@ -25,8 +25,8 @@ $templates = array(
 $mailset = array(
 	/* ユーザ宛メール */
 	'user' => array(
-		'subject' => 'お問い合わせありがとうございます【有限会社長靴倶楽部】',	//メールsubject
-		'mailfrom' => 'info@nagagutsu-club.co.jp'	//mail from
+		'subject' => 'お問い合わせありがとうございます【株式会社Signite（シグナイト）】',	//メールsubject
+		'mailfrom' => 'info@signite.jp'	//mail from
 		),
 
 	'admin' => array(
@@ -34,10 +34,9 @@ $mailset = array(
 		// mailto 複数指定する場合は、arrayの中に追加する
 		// 'mailaddress', という形で行を追加していくことで複数アドレスに送信できる
 		'mailto' => array(
-			//'business@nagagutsu-club.co.jp',
-			'oshio@nagagutsu-club.co.jp',
+			'business@nagagutsu-club.co.jp',
 		),
-		'mailfrom' => 'info@nagagutsu-club.co.jp',
+		'mailfrom' => 'info@signite.jp',
 	),
 );
 

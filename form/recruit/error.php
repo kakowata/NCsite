@@ -7,7 +7,7 @@
 <meta name="keywords" content="iPad,写真管理,データベース,CMS,ECサイト,商品管理,東京都,府中">
 <meta name="description" content="お客様のご要望に応じて最適なデータベースのユニットを構築しご提案致します。iPadを使った写真管理システムやWebサイトのコンテンツ 管理システム（CMS）、ECサイトの商品管理システムなど。">
 <meta name="format-detection" content="telephone=no">
-<title>採用情報｜有限会社長靴倶楽部</title>
+<title>採用情報｜株式会社Signite（シグナイト）</title>
 <meta name="keywords" content="Google, Google Maps, システム開発, GIS, 地理情報システム, アプリ開発, iPad, Web制作, EC, Eコマース, 楽天市場, Yahoo!ショッピング, ポンパレモール, ショップサーブ, クラウド, Google Cloud Platform, App Engine, Compute Engine">
 <meta name="description" content="Google Maps を利用したWebシステム開発、Eコマースにおけるコンサルティングなど、クラウドを利活用した各種Webサービスのご提案をいたします。iPadを使った移動型情報登録システムやバーコードを使った登録システム、ECサイトの構築など。">
 <meta name="format-detection" content="telephone=no">
@@ -27,7 +27,7 @@
 <link rel="stylesheet" type="text/css" href="../../css/material.min.css">
 <link rel="stylesheet" href="../../css/liquid-slider.css">
 <link href="../../css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
@@ -65,7 +65,7 @@
 
 <div class="container under">
     <div class="bread">
-        <p><a href="http://www.nagagutsu-club.co.jp/index.php">HOME</a>&nbsp;&#62;&nbsp;採用情報</p>
+        <p><a href="http://signaite.jp/index.php">HOME</a>&nbsp;&#62;&nbsp;採用情報</p>
     </div>
     <h1>採用情報</h1>
     <div class="contactContent">

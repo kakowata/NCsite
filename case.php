@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>導入実績｜有限会社長靴倶楽部</title>
+<title>導入実績｜株式会社Signite（シグナイト）</title>
 <meta name="keywords" content="府中,導入実績、活用事例,データベース構築,Google Maps,システム構築, クラウド, Google Cloud Platform, App Engine, Compute Engine">
-<meta name="description" content="有限会社長靴倶楽部ではGoogle Mapsとデータベースを連携させた情報管理システムを構築しています。">
+<meta name="description" content="株式会社Signite（シグナイト）ではGoogle Mapsとデータベースを連携させた情報管理システムを構築しています。">
 <meta name="format-detection" content="telephone=no">
 <!-- style -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																<p>問題解決から業務効率UPまで<br>
 																		お客さまの活用事例のご紹介です。</p>
 														</div>
-														<div class="col-sm-6 iconBox hidden-xs"> <img class="icon" src="images/maps/maps-img01.png" width="80%" alt="導入実績"> </div>
+														<div class="col-sm-6 iconBox hidden-xs"> <img class="icon" src="images/maps/maps-img01.png" width="80%" height="100%" alt="導入実績"> </div>
 												</div>
 										</div>
 								</div>
@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<!-- Google Atmosphere Tokyo 2015　-->
 								<div id="google_atmos">
 										<div class="container">
-												<div class="col-lg-7 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-1"> <img src="images/case/img/atomos.png" width="100%" alt="Google Atmosphere 2015"> </div>
+												<div class="col-lg-7 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-1"> <img src="images/case/img/atomos.png" width="100%" height="100%" alt="Google Atmosphere 2015"> </div>
 												<div class="col-lg-5 col-md-4 col-sm-12 pa-20">
 														<h2>Google<br>
 																Atmosphere 2015<span class="title1">に<br>
@@ -71,7 +71,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<div class="col-lg-7 col-md-6 col-sm-12 pa-20">
 														<h2 class="text-left">information<br>
 																Bord
-																<p>インフォメーションボード</p>
+																<span class="subtitle">インフォメーションボード</span>
 														</h2>
 														<p>Google Mapsを用いた会場案内用システム。六本木ヒルズ内（インドアマップを使用）の6つの基調講演会場までの道順を地図上に動的表示・案内しました。</p>
 														<h3>【使用したGoogleサービス】</h3>
@@ -91,17 +91,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																<input type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onClick="window.open('http://geo-map-demo.appspot.com/informationboard')" value="デモ環境はこちら">
 														</p>
 												</div>
-												<div class="col-lg-4 col-md-6 col-sm-6 col-lg-offset-1 col-md-offset-0 col-sm-offset-3"> <img src="images/case/img/infomartion_img.jpg" width="100%" alt="information Bord 展示"> </div>
+												<div class="col-lg-4 col-md-6 col-sm-6 col-lg-offset-1 col-md-offset-0 col-sm-offset-3"> <img src="images/case/img/infomartion_img.jpg" width="100%" height="100%" alt="information Bord 展示"> </div>
 										</div>
 								</div>
 								<!-- showcase　-->
 								<div id="showcase">
 										<div class="container"> 
 												<!-- ＰＣ用 -->
-												<div class="col-lg-4 col-md-6 hidden-sm hidden-xs"> <img src="images/case/img/showcase_img.jpg" width="100%" alt="showcase 展示"> </div>
+												<div class="col-lg-4 col-md-6 hidden-sm hidden-xs"> <img src="images/case/img/showcase_img.jpg" width="100%" height="100%" alt="showcase 展示"> </div>
 												<div class="col-lg-7 col-md-6 col-sm-12 pa-20">
 														<h2 class="text-left">showcase
-																<p>ショーケース</p>
+																<span class="subtitle">ショーケース</span>
 														</h2>
 														<p>「商品を陳列する棚」のように「魅せる」情報を提供することを目的とした、スライド式の情報提供システム。<br>
 																今回のイベントでは、Google Maps Apiを活用したシステムの導入実績として、各企業のHPを表示させました。</p>
@@ -125,7 +125,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 														</p>
 												</div>
 												<!-- スマホ用 -->
-												<div class="col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 visible-sm visible-xs"> <img src="images/case/img/showcase_img.jpg" width="100%" alt="showcase 展示"> </div>
+												<div class="col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 visible-sm visible-xs"> <img src="images/case/img/showcase_img.jpg" width="100%" height="100%" alt="showcase 展示"> </div>
 										</div>
 								</div>
 						</div>
@@ -140,7 +140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--allContent end -->
 <link rel="stylesheet" href="css/liquid-slider.css">
 <link href="css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
