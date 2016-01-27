@@ -52,7 +52,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 														</div>
 														<div class="row">
 																<div class="col-sm-6 col-xs-12 topText">
-																		<h1>Signite<br> CO., LTD.</h1>
+																		<h1>Signite<br>
+																				CO., LTD.</h1>
 																</div>
 																<div class="col-sm-6 col-xs-12 iconBox"> <img class="icon" src="images/company/com-img01.png" width="80%" height="80%" alt="会社概要"> </div>
 																<div class="col-sm-12 col-xs-12 topText">
@@ -79,12 +80,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		<!-- 代表挨拶　-->
 																		<div class="col-sm-12 col-xs-12 subContainer mgB-50">
 																				<h2>代表挨拶</h2>
-																				<div class="col-xs-12">
-																						<div class="col-sm-4 col-sm-offset-4 col-xs-12 col-xs-offset-0 text-center"><img src="images/company/harada_img.png" width="240" height="100%" alt="">
+																				<div class="col-xs-12"> 
+																						<!--<div class="col-sm-4 col-sm-offset-4 col-xs-12 col-xs-offset-0 text-center"><img src="images/company/harada_img.png" width="240" height="100%" alt="">
 																								<p style="font-size:16px;"><i class="material-icons">brightness_high</i><br>
 																										代表取締役<br>
 																										原田 智行</p>
-																						</div>
+																						</div>-->
 																						<div class="col-xs-12">
 																								<h3 class="com_title">「アイデア」を「カタチ」に</h3>
 																								<div class="textBox">
@@ -95,6 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																										<p>これからも会社と個人が成長し続け、お客様と喜びを分かち合えることができる企業を目指して、夢のあるサービスをご提供していきます。</p>
 																										<p>今後も引き続きご支援賜りますよう、お願い申し上げます。 </p>
 																								</div>
+																								<div class="text-right">代表取締役 原田 智行</div>
 																						</div>
 																				</div>
 																		</div>
@@ -146,7 +148,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																								<div class="col-sm-2 col-xs-12 th">取引金融機関 </div>
 																								<div class="col-sm-10 col-xs-12 td">三井住友銀行 府中支店、
 																										みずほ銀行 府中北口支店、
-																										八千代銀行 府中支店、
 																										多摩中央信用金庫 府中支店</div>
 																						</div>
 																						<div class="col-xs-12">
@@ -172,7 +173,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		<!-- 沿革　-->
 																		<div class="col-sm-12 col-xs-12 subContainer mgB-50" id="enkaku">
 																				<h2>沿革</h2>
-																		
 																				<div class="col-sm-12 col-xs-12">
 																						<div class="col-sm-4 col-xs-3 text-right">平成13年3月2日</div>
 																						<div class="col-sm-8 col-xs-9 text-left pa-15">有限会社長靴倶楽部設立</div>
@@ -195,11 +195,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				</div>
 																				<div class="col-sm-12 col-xs-12">
 																						<div class="col-sm-4 col-xs-3 text-right">平成28年</div>
-																						<div class="col-sm-8 col-xs-9 text-left pa-15">WEBシステム開発を主軸にサービス展開<br>有限会社長靴倶楽部から「株式会社Signite（シグナイト）」に社名変更</div>
+																						<div class="col-sm-8 col-xs-9 text-left pa-15">WEBシステム開発を主軸にサービス展開<br>
+																								有限会社長靴倶楽部から「株式会社Signite（シグナイト）」に社名変更</div>
 																				</div>
 																		</div>
 																</div>
-																<div id="map_canvas" style="width:100%; height:500px; margin-bottom: 40px;"></div>
+																<!-- GoogleMaps 表示 -->
+																<div id="googlemaps">
+																		<!-- レイヤー -->
+																		<div class="col-sm-7 col-xs-12" id="layer"></div>
+																		<div class="col-sm-7 col-xs-12" id="map_canvas"></div>
+																		<div class="col-sm-5 col-xs-12">
+																				<div id='pano'></div>
+																				<p style='margin: 10px'><span style='font-size: 24px;'>株式会社Signite</span><br>
+																						〒183-0023<br>
+																						東京都府中市宮町2丁目15-13第15三ツ木ビル6F</p>
+																				<div id="directions_panel"></div>
+																		</div>
+																</div>
+																<div class="visible-xs text-center mgB-20">
+																		<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onClick="location.href='http://maps.google.com/maps?q=東京都府中市宮町2丁目15-13第15三ツ木ビル6F+株式会社Signite'">GoogleMapsをアプリで開く</button>
+																</div>
 																<!-- 部署紹介　-->
 																<div class="col-sm-12 col-xs-12 subContainer mgB-50">
 																		<div class="hr"> </div>
@@ -229,30 +245,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																</div>
 																<!-- ISMS　-->
 																<div class="col-sm-12 col-xs-12 subContainer mgB-50" id="isms">
-																				<div class="hr"> </div>
-																				<h3 class="center mgB-20">ISMS認証取得について</h3>
-																				<div class="textBox mgB-20 col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">当社では、情報セキュリティ・マネジメントシステムの国際規格であるISO/IEC 27001:2013（JIS Q 27001:2014）の認証を取得しております。 </div>
-																				<div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-																						<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-6 col-xs-offset-3"> <img class="mgB-20" src="images/company/imsm.png" width="100%" height="100%" alt="isms"></div>
-																						<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-6 col-xs-offset-2 col-xs-10">
-																								<div class="textBox" style="font-size: 12px">
-																										<dl>
-																												<dt>認証基準</dt>
-																												<dd>ISO/IEC 27001:2013（JIS Q 27001:2014）</dd>
-																												<dt>認証登録番号</dt>
-																												<dd>10466</dd>
-																												<dt>認証登録範囲</dt>
-																												<dd>システム開発</dd>
-																												<dt>認証登録日</dt>
-																												<dd>平成26年11月17日</dd>
-																												<dt>審査登録機関</dt>
-																												<dd>インターテック・サーティフィケーション株式会社</dd>
-																												<dt>認定機関</dt>
-																												<dd>UKAS（United Kingdom Accreditation Service）</dd>
-																										</dl>
-																								</div>
+																		<div class="hr"> </div>
+																		<h3 class="center mgB-20">ISMS認証取得について</h3>
+																		<div class="mgB-20 col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12 text-center">当社では、情報セキュリティ・マネジメントシステムの国際規格であるISO/IEC 27001:2013（JIS Q 27001:2014）の認証を取得しております。 </div>
+																		<div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
+																				<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-6 col-xs-offset-3"> <img class="mgB-20" src="images/company/imsm.png" width="100%" height="100%" alt="isms"></div>
+																				<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-6 col-xs-offset-2 col-xs-10">
+																						<div class="textBox" style="font-size: 12px">
+																								<dl>
+																										<dt>認証基準</dt>
+																										<dd>ISO/IEC 27001:2013（JIS Q 27001:2014）</dd>
+																										<dt>認証登録番号</dt>
+																										<dd>10466</dd>
+																										<dt>認証登録範囲</dt>
+																										<dd>システム開発</dd>
+																										<dt>認証登録日</dt>
+																										<dd>平成26年11月17日</dd>
+																										<dt>審査登録機関</dt>
+																										<dd>インターテック・サーティフィケーション株式会社</dd>
+																										<dt>認定機関</dt>
+																										<dd>UKAS（United Kingdom Accreditation Service）</dd>
+																								</dl>
 																						</div>
 																				</div>
+																		</div>
 																</div>
 														</div>
 												</section>

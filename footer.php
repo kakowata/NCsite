@@ -29,7 +29,7 @@
 						</div>
 						<div class="col-sm-3 col-xs-6">
 								<ul class="mdl-mega-footer__link-list">
-										<li><a href="/case.php">導入実績</a></li>
+										<!--li><a href="/case.php">導入実績</a></li-->
 										<li><a href="/company.php">会社概要</a></li>
 										<li><a href="/security.php">情報セキュリティ方針</a></li>
 										<li><a href="/privacy.php">個人情報保護方針</a></li>

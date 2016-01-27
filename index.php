@@ -43,8 +43,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		<div class="center-fix">
 																				<h1>Google Maps を利用したWebシステム開発なら</h1>
 																				<p><img src="images/top/logo.png" width="60%" height="100%" alt="SIGNITE"></p>
-																				<p class="absolute">あなたの「アイデア」を「カタチ」に<br>
-																						フィールドを選ばないWebシステム開発＆インターネットを活用したビジネスをトータル的にサポートいたします！</p>
+																				<p class="absolute">有限会社長靴倶楽部は、
+																						<span>株式会社Signite</span>（シグナイト）へ社名変更しました。<br>
+																						今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
 																		</div>
 																		<div class="bottom-tease">
 																				<p class="pagedown"><a href="#smartgarage_div"></a></p>
@@ -58,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 								<div class="container mainBox" id="company">
 										<div class="col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1 subContainer mgB-50 left">
-												<p>私たちの社名である「Signite」は『世界のニーズにスマートな火をともす　～Smart Ignition Technology～ 』という思いを込めて、世界に発信するための企画を提案いたします。制作、公開・運営のサポート、インフラ、システム開発までWebに関わる業務全般をプロデュースいたします。Web制作はもちろん、インフラ整備、システム開発からホスティングの代行、公開後のメンテナンスまでお任せ下さい！</p>
+												<p>私たちの社名である「Signite」は<span style="font-weight:bold">『世界のニーズにスマートな火をともす ～Smart Ignition Technology～ 』</span><br>という思いを込めて、夢のあるサービスをご提供していきます。</p><p>あなたの「アイデア」を「カタチ」にこれからもWebシステム開発＆インターネットを活用したビジネスをトータル的にサポートいたします！</p>
 										</div>
 										<div class="col-sm-12 col-xs-12 subContainer">
 												<div class="col-sm-6 col-xs-12 pa-15">
