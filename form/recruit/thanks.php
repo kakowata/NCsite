@@ -39,7 +39,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
-		<?php include("../../header.php"); ?>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+				<?php include("../../header.php"); ?>
 				<div class="row grey ">
 						<div class="col-sm-12 col-xs-12">
 								<div id="contact"> 
@@ -86,16 +87,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												</section>
 										</div>
 								</div>
-</div>
-								<!--mainBox--> 
-								<!-- Topへ戻る -->
-								<p id="page-top"><a href="#allContent"></a></p>
 						</div>
-						<!-- contact end --> 
+						<!--mainBox--> 
+						<!-- Topへ戻る -->
+						<p id="page-top"><a href="#allContent"></a></p>
+						<!-- footer -->
+						<?php include("../../footer.php"); ?>
 				</div>
+				<!-- contact end --> 
 		</div>
-		<!-- footer -->
-		<?php include("../../footer.php"); ?>
 </div>
 <!--allContent end -->
 <link rel="stylesheet" href="../../css/liquid-slider.css">

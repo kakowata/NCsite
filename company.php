@@ -39,6 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<?php include("header.php"); ?>
 				<div class="row grey ">
 						<div class="col-sm-12 col-xs-12">
@@ -195,7 +196,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				</div>
 																				<div class="col-sm-12 col-xs-12">
 																						<div class="col-sm-4 col-xs-3 text-right">平成28年</div>
-																						<div class="col-sm-8 col-xs-9 text-left pa-15">WEBシステム開発を主軸にサービス展開<br>
+																						<div class="col-sm-8 col-xs-9 text-left pa-15">Webシステム開発を主軸にサービス展開<br>
 																								有限会社長靴倶楽部から「株式会社Signite（シグナイト）」に社名変更</div>
 																				</div>
 																		</div>
@@ -207,7 +208,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		<div class="col-sm-7 col-xs-12" id="map_canvas"></div>
 																		<div class="col-sm-5 col-xs-12">
 																				<div id='pano'></div>
-																				<p style='margin: 10px'><span style='font-size: 24px;'>株式会社Signite</span><br>
+																				<p style='margin: 20px 10px'><span style='font-size: 24px;'>株式会社Signite</span><br>
 																						〒183-0023<br>
 																						東京都府中市宮町2丁目15-13第15三ツ木ビル6F</p>
 																				<div id="directions_panel"></div>
@@ -288,19 +289,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		<!--PC表示-->
 																		<div>
 																				<div class="col-sm-12 col-xs-12 subContainer">
-																						<div class="col-md-4 col-md-offset-1 text-center hidden-sm hidden-xs"> <img src="images/company/flow-img01.png" width="100%" height="100%" alt="コンサルティング"> </div>
-																						<div class="col-md-7 col-md-offset-0 col-sm-11 col-sm-offset-0 flowBox1">
+																						<div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-0 text-center hidden-xs"> <img src="images/company/flow-img01.png" width="100%" height="100%" alt="コンサルティング"> </div>
+																						<div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 flowBox1">
 																								<h3>コンサルティング</h3>
 																								<p>お客様のご要望・ご予算などをお伺いし、必要な機能・サービスを選定いたします。 </p>
 																								<p>・打診・訪問・打ち合わせ<br>
 																										・案件定義・設計 </p>
 																						</div>
-																						<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 text-center visible-xs visible-sm"> <img src="images/company/flow-img01.png" width="100%" height="100%" alt="コンサルティング"> </div>
+																						<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 text-center visible-xs"> <img src="images/company/flow-img01.png" width="100%" height="100%" alt="コンサルティング"> </div>
 																				</div>
 																		</div>
 																		<!-- 2.企画提案　-->
 																		<div class="col-sm-12 col-xs-12 subContainer">
-																				<div class="col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-12">
+																				<div class="col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-8 col-sm-offset-0 col-xs-12">
 																						<div class="flowBox2">
 																								<h3>企画提案</h3>
 																								<p>ご要望に合わせて企画・提案を行い、全体の内容をまとめます。</p>
@@ -309,21 +310,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																										・契約・発注確認</p>
 																						</div>
 																				</div>
-																				<div class="col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-4 col-xs-10 col-xs-offset-1 text-center"> <img src="images/company/flow-img02.png" width="100%" height="100%" alt="コンサルティング"> </div>
+																				<div class="col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 text-center"> <img src="images/company/flow-img02.png" width="100%" height="100%" alt="コンサルティング"> </div>
 																		</div>
 																		<!-- 3.開発　-->
 																		<div class="col-sm-12 col-xs-12 subContainer"> 
 																				<!--PC表示-->
 																				<div>
-																						<div class="col-md-4 col-md-offset-1 text-center hidden-sm hidden-xs"> <img src="images/company/flow-img03.png" width="100%" height="100%" alt="開発"> </div>
-																						<div class="col-md-7 col-md-offset-0 col-sm-11 col-sm-offset-0 col-xs-12">
+																						<div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-0 text-center hidden-xs"> <img src="images/company/flow-img03.png" width="100%" height="100%" alt="開発"> </div>
+																						<div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12">
 																								<div class="flowBox3-1">
 																										<h3>開発</h3>
 																										<p>決定した仕様書を元に、システムの開発・サーバー構築を行います。</p>
 																								</div>
 																						</div>
 																				</div>
-																				<div class="col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1 flowBox3-2">
+																				<div class="col-md-12 col-md-offset-0 col-sm-10 col-xs-12 col-sm-offset-1 flowBox3-2">
 																						<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12">
 																								<h4>【インフラサービス】</h4>
 																								<p class="pa-15">Webアプリケーション、データベースとの親和性、アクセス集中、サーバ負荷を分散する可用性、セキュリティの堅牢性を備えた各種クラウドサービスをご提案いたします。</p>
@@ -343,12 +344,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																										Cloud Platform<!--img src="images/company/banner03.jpg" width="100%" alt="Cloud Platform"--></h5>
 																								<p class="line-h16">App Engineを中心としたセキュリティの高いWebサーバを構築します。Googleの最新のテクノロジーにより、データは細かく断片化され、複数のサーバーに分散されるため、人間が解読できない状態で安全に保管されます。複数のデータセンターにデータのコピーを保管するため、高い冗長性と可用性を実現します。</p>
 																						</div>
-																						<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 text-center visible-xs visible-sm"> <img src="images/company/flow-img03.png" width="100%" height="100%" alt="開発"> </div>
+																						<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 text-center visible-xs"> <img src="images/company/flow-img03.png" width="100%" height="100%" alt="開発"> </div>
 																				</div>
 																		</div>
 																		<!-- 4.完成・納品　-->
 																		<div class="col-sm-12 col-xs-12 subContainer">
-																				<div class="col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-12">
+																				<div class="col-lg-7 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-7 col-sm-offset-0 col-xs-12">
 																						<div class="flowBox4">
 																								<h3>完成・納品</h3>
 																								<p>動作テストを行いシステムの不備がないか確認し、操作マニュアル等を作成します。</p>
@@ -357,7 +358,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																										・検収・納品</p>
 																						</div>
 																				</div>
-																				<div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 text-center"> <img src="images/company/flow-img04.png" width="100%" height="100%" alt="完成・納品"> </div>
+																				<div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 text-center"> <img src="images/company/flow-img04.png" width="100%" height="100%" alt="完成・納品"> </div>
 																		</div>
 																</div>
 														</div>
@@ -366,12 +367,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 								<!-- Topへ戻る -->
 								<p id="page-top"><a href="body"></a></p>
+								<!-- footer -->
+								<?php include("footer.php"); ?>
 						</div>
 						<!-- con end --> 
 				</div>
 		</div>
-		<!-- footer -->
-		<?php include("footer.php"); ?>
 </div>
 <!--allContent end -->
 <link rel="stylesheet" href="css/liquid-slider.css">

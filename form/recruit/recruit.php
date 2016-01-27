@@ -37,11 +37,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5VJ4Z8');</script> 
 <!-- End Google Tag Manager -->
-
 <div id="allContent"> 
-		
 		<!-- ヘッダーナビゲーションバー -->
-		<?php include("../../header.php"); ?>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+				<?php include("../../header.php"); ?>
 				<div class="row grey ">
 						<div class="col-sm-12 col-xs-12">
 								<div id="contact"> 
@@ -92,10 +91,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">仕事内容</div>
-																						<div class="col-sm-10 col-xs-12 td"><p>当社は、創業当初よりインターネットを活用したビジネスを、トータル的にサポートしている会社です。Webシステム開発を中心にWebサイトの企画立案、制作、公開まで、Webに関わる業務全般をプロデュースしています。 </p>
+																						<div class="col-sm-10 col-xs-12 td">
+																								<p>当社は、創業当初よりインターネットを活用したビジネスを、トータル的にサポートしている会社です。Webシステム開発を中心にWebサイトの企画立案、制作、公開まで、Webに関わる業務全般をプロデュースしています。 </p>
 																								<p>今回、募集するスタッフは、開発案件増加に伴い、今後の事業拡張に向けて会社と共に成長し活躍していける方を募集します。<br>
-																								お客様からご依頼いただいたWebシステムの開発、自社オリジナルのシステムパッケージの導入作業を行っていただきます。</p>
-																								<p>現在、弊社ではGoogle Maps APIを利用した地図ソリューションや、スマートデバイスでもご利用頂けるWebデータベースを活用したシステム開発に力を入れていますので幅広いスキルや経験を身に付けることが可能です。</p></div>
+																										お客様からご依頼いただいたWebシステムの開発、自社オリジナルのシステムパッケージの導入作業を行っていただきます。</p>
+																								<p>現在、弊社ではGoogle Maps APIを利用した地図ソリューションや、スマートデバイスでもご利用頂けるWebデータベースを活用したシステム開発に力を入れていますので幅広いスキルや経験を身に付けることが可能です。</p>
+																						</div>
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">雇用形態</div>
@@ -144,7 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">勤務地</div>
 																						<div class="col-sm-10 col-xs-12 td">〒183-0023<br>
-																								東京都府中市宮町2-15-13　 第15三ツ木ビル6F</div>
+																								東京都府中市宮町2-15-13　 第15三ツ木ビル6F  <input type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="MAPを見る" onClick="location.href='/company.php#googlemaps'" /></div>
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-12 col-xs-12 tb">
@@ -227,11 +228,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">仕事内容</div>
-																						<div class="col-sm-10 col-xs-12 td"><p>ITを通じて自分の営業力を「大きな力」に変えてみませんか？</p> 
+																						<div class="col-sm-10 col-xs-12 td">
+																								<p>ITを通じて自分の営業力を「大きな力」に変えてみませんか？</p>
 																								<p>弊社では、お客様への提案を前提としています。それは、単純に今ある商品を売ると いうことではなく、今ある商品やサービスをお客様の「ほしいもの」として用意するコンシェルジュのようなもの。人の気持ちがわからずに提案はできないため、気づく力、おもてなしの心、思いやりが大切になります。</p>
 																								<p>お客様が抱える課題や悩みを聞き取り、弊社の技術スタッフと協力してお客様に最良なWebコンテンツの提案を行って頂きます。</p>
 																								<p>IT業界に挑戦したい方、チャレンジスピリットが高い方、お待ちしております! <br>
-																								我々と一緒に「大きな力」に変えていきましょう。</p></div>
+																										我々と一緒に「大きな力」に変えていきましょう。</p>
+																						</div>
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">雇用形態</div>
@@ -271,7 +274,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">勤務地</div>
 																						<div class="col-sm-10 col-xs-12 td">〒183-0023<br>
-																								東京都府中市宮町2-15-13　 第15三ツ木ビル6F</div>
+																								東京都府中市宮町2-15-13　 第15三ツ木ビル6F  <input type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="MAPを見る" onClick="location.href='/company.php#googlemaps'" /></div>
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-12 col-xs-12 tb">
@@ -287,12 +290,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<p id="page-top"><a href="#allContent"></a></p>
 										</div>
 										<!--container mainBox end --> 
+										<!-- footer -->
+										<?php include("../../footer.php"); ?>
 								</div>
 								<!-- contact end --> 
 						</div>
 				</div>
-				<!-- footer -->
-				<?php include("../../footer.php"); ?>
 		</div>
 </div>
 <!--allContent end -->

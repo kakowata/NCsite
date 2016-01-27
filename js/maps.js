@@ -8,7 +8,8 @@ var endSpot= Signite;
 
 rendererOptions = {
 		preserveViewport:false,
-		suppressMarkers : true
+		suppressMarkers : true,
+		polylineOptions: { strokeColor:"#0097A7", strokeWeight:10 }
 };
 var directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
 var directionsService = new google.maps.DirectionsService();
@@ -23,7 +24,8 @@ function initialize() {
 			draggable: false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			disableDoubleClickZoom: true,
-			streetViewControl: false
+			streetViewControl: false,
+			panControl:	false
 	 };
 	 map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 		directionsDisplay.setMap(map);
@@ -32,7 +34,7 @@ function initialize() {
 	 var marker = new google.maps.Marker({
 			 position: Signite,
 			 map: map,
-			 icon: "images/company/mapicon.png",
+			 icon: "images/smartgarage/sgmap.png",
 			 draggable: true
 	 });
 

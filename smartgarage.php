@@ -39,7 +39,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
-		<?php include("header.php"); ?>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+				<?php include("header.php"); ?>
 				<div class="row">
 						<div class="col-sm-12 col-xs-12">
 								<div id="sg"> 
@@ -52,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 														</div>
 														<div class="row">
 																<div class="col-sm-6 col-xs-12 topText">
-																		<p style="font-size: 20px; margin-left: -10px">「Google Maps」×「システム開発」</p>
+																		<p class="sub_title">「Google Maps」×「システム開発」</p>
 																		<h1>SmartGarage<br>
 																				series</h1>
 																</div>
@@ -251,10 +252,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</div>
 						<!-- Topへ戻る -->
 						<p id="page-top"><a href="body"></a></p>
+						<!-- footer -->
+						<?php include("footer.php"); ?>
 				</div>
 		</div>
-		<!-- footer -->
-		<?php include("footer.php"); ?>
 		<!-- mdl-layout mdl-js-layout mdl-layout-fixed-header end--> 
 </div>
 <!--allContent end -->

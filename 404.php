@@ -36,6 +36,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<?php include("header.php"); ?>
 				<div class="row grey ">
 						<div class="col-sm-12 col-xs-12">
@@ -79,11 +80,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<!--mainBox--> 
 						<!-- Topへ戻る -->
 						<p id="page-top"><a href="#body"></a></p>
+						<!-- footer -->
+						<?php include("footer.php"); ?>
 				</div>
-				<!-- security end --> 
-		</div>
-		<!-- footer -->
-		<?php include("footer.php"); ?>
 		</div>
 		<!-- mdl-layout mdl-js-layout mdl-layout--fixed-header end--> 
 </div>

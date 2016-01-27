@@ -9,7 +9,6 @@
 <meta name="format-detection" content="telephone=no">
 <!-- style -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <link rel="stylesheet" type="text/css" href="css/material.min.css">
 <!--[if lt IE 9]>
@@ -19,17 +18,20 @@
 </head>
 <body id="top">
 <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VJ4Z8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VJ4Z8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5VJ4Z8');</script>
+})(window,document,'script','dataLayer','GTM-5VJ4Z8');</script> 
 <!-- End Google Tag Manager -->
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
-		<?php include("header.php"); ?>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+				<?php include("header.php"); ?>
 				<!-- ヘッダーナビゲーションバー　ここまで --> 
 				<!-- topimage ここから　-->
 				<div class="row">
@@ -43,13 +45,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		<div class="center-fix">
 																				<h1>Google Maps を利用したWebシステム開発なら</h1>
 																				<p><img src="images/top/logo.png" width="60%" height="100%" alt="SIGNITE"></p>
-																				<p class="absolute">有限会社長靴倶楽部は、
+																				<p class="absolute">有限会社長靴倶楽部は、<br class="visible-xs">
 																						<span>株式会社Signite</span>（シグナイト）へ社名変更しました。<br>
 																						今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
 																		</div>
 																		<div class="bottom-tease">
 																				<p class="pagedown"><a href="#smartgarage_div"></a></p>
-																				<!--input type="button" class="pagedown" id="smartgarage_div" value="Scroll"-->
+																				<!--input type="button" class="pagedown" id="smartgarage_div" value="Scroll"--> 
 																		</div>
 																</div>
 																<!--pc表示ここまで--> 
@@ -59,7 +61,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 								<div class="container mainBox" id="company">
 										<div class="col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1 subContainer mgB-50 left">
-												<p>私たちの社名である「Signite」は<span style="font-weight:bold">『世界のニーズにスマートな火をともす ～Smart Ignition Technology～ 』</span><br>という思いを込めて、夢のあるサービスをご提供していきます。</p><p>あなたの「アイデア」を「カタチ」にこれからもWebシステム開発＆インターネットを活用したビジネスをトータル的にサポートいたします！</p>
+												<p>私たちの社名である「Signite」は<span style="font-weight:bold">『世界のニーズにスマートな火をともす ～Smart Ignition Technology～ 』</span><br>
+														という思いを込めて、夢のあるサービスをご提供していきます。</p>
+												<p>あなたの「アイデア」を「カタチ」にこれからもWebシステム開発＆インターネットを活用したビジネスをトータル的にサポートいたします！</p>
 										</div>
 										<div class="col-sm-12 col-xs-12 subContainer">
 												<div class="col-sm-6 col-xs-12 pa-15">
@@ -231,7 +235,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<h2>「欲しいものを欲しいままに」</h2>
 												<p class="left" id="order_title">オーダーメイド<br class="visible-xs">
 														サービス</p>
-												<p class="center"><a class="button green_btn" href="form/contact/index.php">お問い合わせはこちらから</a></p>
+												<p class="center"><a class="button green_btn" href="form/contact/index.php">お問い合わせはこちら</a></p>
 										</div>
 										<div class="col-sm-6 left">
 												<p class="pa-15" style="margin-top: 50px">「SmartGarage」シリーズ開発で手がけてきた最新のテクノロジーや直感的に操作できるUI技術を活かして、独自のシステムを構築したいというお客様向けのシステム構築サービスです。小規模なものから大規模システムまで、ご要望に応じて最適な構築プランをご提案いたします。必要なのはアイデアと簡易的なイメージだけ。あなたの欲しいものを欲しいままに、システムを構築します。 </p>
@@ -332,11 +336,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<!-- Topへ戻る -->
 				<p id="page-top"><a href="body"></a></p>
+				<!-- footer -->
+				<?php include("footer.php"); ?>
 		</div>
-		<!-- footer -->
-		<?php include("footer.php"); ?>
 </div>
-<!--allContent end --> 
+<!--allContent end -->
 <link rel="stylesheet" href="css/liquid-slider.css">
 <link href="css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
