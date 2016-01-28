@@ -127,13 +127,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">募集資格</div>
 																						<div class="col-sm-10 col-xs-12 td">
-																								<h3>【求めている人材】</h3>
+																								<p class="text_large">【求めている人材】</p>
 																								<p style="margin-left:10px">・向上心があり、責任感の強い方<br>
 																										・挨拶がきちんとできる方<br>
 																										・一般的なコミュニケーション能力がある方<br>
 																										・自分から物事を進める姿勢がある方<br>
 																										・知識やスキルを進んで学ぼうとする姿勢がある方</p>
-																								<h3>【歓迎するスキル】</h3>
+																								<p class="text_large">【歓迎するスキル】</p>
 																								<p style="margin-left:10px">・PHPに関する知識のある方<br>
 																										※何かしらPHPでプログラミングを行ったことのある方(フレームワーク経験者歓迎)<br>
 																										・JavaScript、jQueryに関する知識のある方<br>
@@ -145,7 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">勤務地</div>
 																						<div class="col-sm-10 col-xs-12 td">〒183-0023<br>
-																								東京都府中市宮町2-15-13　 第15三ツ木ビル6F  <input type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="MAPを見る" onClick="location.href='/company.php#googlemaps'" /></div>
+																								東京都府中市宮町2-15-13　 <br class="visible-xs">第15三ツ木ビル6F  <br class="visible-xs"><input type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="MAPを見る" onClick="location.href='/company.php#googlemaps'" /></div>
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-12 col-xs-12 tb">
@@ -259,13 +259,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">募集資格</div>
 																						<div class="col-sm-10 col-xs-12 td">
-																								<h3>【求めている人材】</h3>
+																								<p class="text_large">【求めている人材】</p>
 																								<p style="margin-left:10px">・向上心があり、責任感の強い方<br>
 																										・挨拶がきちんとできる方<br>
 																										・顧客とのコミュニケーション能力が高い方<br>
 																										・自分から物事を進める姿勢がある方<br>
 																										・新しいものなどを進んで吸収しようとする姿勢がある方</p>
-																								<h3>【歓迎するスキル】</h3>
+																								<p class="text_large">【歓迎するスキル】</p>
 																								<p style="margin-left:10px">・Word、Excel、PowerPointなどの一般的なPCスキル<br>
 																										・法人営業経験(業種問わず)<br>
 																										・制作ディレクション経験、エンジニア経験のある方、歓迎</p>
@@ -274,7 +274,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				<div class="col-xs-12">
 																						<div class="col-sm-2 col-xs-12 th">勤務地</div>
 																						<div class="col-sm-10 col-xs-12 td">〒183-0023<br>
-																								東京都府中市宮町2-15-13　 第15三ツ木ビル6F  <input type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="MAPを見る" onClick="location.href='/company.php#googlemaps'" /></div>
+																								東京都府中市宮町2-15-13　 <br class="visible-xs">第15三ツ木ビル6F <br class="visible-xs"> <input type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="MAPを見る" onClick="location.href='/company.php#googlemaps'" /></div>
 																				</div>
 																				<div class="col-xs-12">
 																						<div class="col-sm-12 col-xs-12 tb">

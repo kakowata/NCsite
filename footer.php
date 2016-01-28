@@ -49,7 +49,7 @@
 										東京都府中市宮町2-15-13<br>
 										第15三ツ木ビル6F</div>
 						</div>
-						<div class="col-xs-12 center"> Copyright Signite  CO., LTD. All Rights Reserved. </div>
+						<div class="col-xs-12 center"> Copyright Signite Inc. All Rights Reserved. </div>
 				</div>
 		</div>
 </footer>

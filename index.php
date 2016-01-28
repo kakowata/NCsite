@@ -36,7 +36,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<!-- topimage ここから　-->
 				<div class="row">
 						<div class="col-sm-12 col-xs-12">
-								<div class="topimage mgB-50">
+								<div class="topimage">
 										<div class="container_Topbox">
 												<div class="row">
 														<div class="col-sm-12 col-xs-12"> 
@@ -44,8 +44,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																<div class="container_box">
 																		<div class="center-fix">
 																				<h1>Google Maps を利用したWebシステム開発なら</h1>
-																				<p><img src="images/top/logo.png" width="60%" height="100%" alt="SIGNITE"></p>
-																				<p class="absolute">有限会社長靴倶楽部は、<br class="visible-xs">
+																				<p class="hidden-xs"><img src="images/top/logo.png" width="60%" height="100%" alt="SIGNITE"></p>
+																				<p class="visible-xs"><img src="images/top/logo.png" width="90%" height="100%" alt="SIGNITE"></p>
+																				<p class="absolute hidden-xs">有限会社長靴倶楽部は、<br class="visible-xs">
 																						<span>株式会社Signite</span>（シグナイト）へ社名変更しました。<br>
 																						今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
 																		</div>
@@ -59,19 +60,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												</div>
 										</div>
 								</div>
-								<div class="container mainBox" id="company">
-										<div class="col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1 subContainer mgB-50 left">
-												<p>私たちの社名である「Signite」は<span style="font-weight:bold">『世界のニーズにスマートな火をともす ～Smart Ignition Technology～ 』</span><br>
-														という思いを込めて、夢のあるサービスをご提供していきます。</p>
-												<p>あなたの「アイデア」を「カタチ」にこれからもWebシステム開発＆インターネットを活用したビジネスをトータル的にサポートいたします！</p>
-										</div>
+								<div class="subContainer left visible-xs center" id="top_smp_comment">
+										<p>有限会社長靴倶楽部は、<br>
+												<span>株式会社Signite</span>（シグナイト）へ<br>
+												社名変更しました。</p>
+										<p>今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
+								</div>
+								<div class="subContainer mgB-50 left" id="top_comment"> 私たちの社名である「Signite」は<span style="font-weight:bold"><br class="hidden-xs">
+										『世界のニーズにスマートな火をともす ～Smart Ignition Technology～ 』</span><br>
+										という思いを込めて、夢のあるサービスをご提供していきます。<br>
+										あなたの「アイデア」を「カタチ」にこれからも<br class="hidden-xs">
+										Webシステム開発＆インターネットを活用したビジネスをトータル的にサポートいたします！ </div>
+								<div class="container mainBox">
 										<div class="col-sm-12 col-xs-12 subContainer">
-												<div class="col-sm-6 col-xs-12 pa-15">
-														<h2>弊社はチームワークを大切にしています。</h2>
-														<h3 style="text-align:left">Signiteの<br>
-																3つの”チーム”</h3>
+												<div class="col-md-6 col-sm-6 col-xs-12 pa-15">
+														<h2>弊社はチームワークを<br>
+																大切にしています。</h2>
+														<h3>Signiteの3つの”チーム”</h3>
 												</div>
-												<div class="col-sm-6 col-xs-12">
+												<div class="col-md-6 col-sm-6 col-xs-12">
 														<div class="col-sm-5 col-xs-4"> <img class="mgB-20" src="images/company/hansoku.png" width="100%" height="100%" alt="販売促進部"> </div>
 														<div class="col-sm-7 col-xs-8 pa-15">
 																<h4 class="mgB-20">販売促進部</h4>
@@ -80,14 +87,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												</div>
 										</div>
 										<div class="col-sm-12 col-xs-12 subContainer mgB-50">
-												<div class="col-sm-6 col-xs-12">
+												<div class="col-md-6 col-sm-6 col-xs-12">
 														<div class="col-sm-5 col-xs-4"> <img class="mgB-20" src="images/company/gijyutu.png" width="100%" height="100%" alt="技術開発部"> </div>
 														<div class="col-sm-7 col-xs-8 pa-15">
 																<h4 class="mgB-20">技術開発部</h4>
 																<p>お客様の必要とする技術の開発と製作を担当致します。</p>
 														</div>
 												</div>
-												<div class="col-sm-6 col-xs-12">
+												<div class="col-md-6 col-sm-6 col-xs-12">
 														<div class="col-sm-5 col-xs-4"> <img class="mgB-20" src="images/company/hinsitu.png" width="100%" height="100%" alt="品質管理部"> </div>
 														<div class="col-sm-7 col-xs-8 pa-15">
 																<h4 class="mgB-20">品質管理部</h4>
@@ -160,67 +167,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										<p class="left">スプレットシートを利用しExcel感覚でデータの入力や管理ができます。また、GoogleAppならネットに繋がるデバイスがあればいつでも誰でも操作が可能です。 </p>
 								</div>
 								<!-- SmartGarageシリーズ特長　ここまで　-->
-								<h2 class="mgBoth h2_title">SmartGarageシリーズ</h2>
-								<div id="sg">
-										<div class="row mgB-20">
-												<div class="col-sm-4 col-xs-12 mgB-20">
-														<div class="demo-card-square mdl-card mdl-shadow--2dp">
-																<div class="mdl-card__title mdl-card--expand">
-																		<h2 class="mdl-card__title-text">地図上に必要な情報を<br>
-																				自由自在に登録！</h2>
+								<div class="col-xs-12">
+										<h2 class="mgBoth h2_title">SmartGarageシリーズ</h2>
+										<div id="sg">
+												<div class="row mgB-20">
+														<div class="col-sm-4 col-xs-12 mgB-20">
+																<div class="demo-card-square mdl-card mdl-shadow--2dp">
+																		<div class="mdl-card__title mdl-card--expand">
+																				<h2 class="mdl-card__title-text">地図上に必要な情報を<br>
+																						自由自在に登録！</h2>
+																		</div>
+																		<div class="center"><img src="images/smartgarage/sgmap.png" width="132" height="128" alt="smartgarage Map"></div>
+																		<div class="mdl-card__supporting-text">SmartGarage<br>
+																				MAP</div>
+																		<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="smartgaragemap.php"> 詳細はこちらから </a> </div>
 																</div>
-																<div class="center"><img src="images/smartgarage/sgmap.png" width="132" height="128" alt="smartgarage Map"></div>
-																<div class="mdl-card__supporting-text">SmartGarage<br>
-																		MAP</div>
-																<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="smartgaragemap.php"> 詳細はこちらから </a> </div>
 														</div>
-												</div>
-												<div class="col-sm-4 col-xs-12 mgB-20">
-														<div class="demo-card-square mdl-card mdl-shadow--2dp">
-																<div class="mdl-card__title mdl-card--expand">
-																		<h2 class="mdl-card__title-text">大量のデータや写真を<br>
-																				カンタン管理</h2>
+														<div class="col-sm-4 col-xs-12 mgB-20">
+																<div class="demo-card-square mdl-card mdl-shadow--2dp">
+																		<div class="mdl-card__title mdl-card--expand">
+																				<h2 class="mdl-card__title-text">大量のデータや写真を<br>
+																						カンタン管理</h2>
+																		</div>
+																		<div class="center"><img src="images/smartgarage/sgData.png" width="174" height="128" alt="SmartGarage Data"></div>
+																		<div class="mdl-card__supporting-text">SmartGarage<br>
+																				Data</div>
+																		<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="smartgaragedata.php"> 詳細はこちらから </a> </div>
 																</div>
-																<div class="center"><img src="images/smartgarage/sgData.png" width="174" height="128" alt="SmartGarage Data"></div>
-																<div class="mdl-card__supporting-text">SmartGarage<br>
-																		Data</div>
-																<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="smartgaragedata.php"> 詳細はこちらから </a> </div>
 														</div>
-												</div>
-												<div class="col-sm-4 col-xs-12 mgB-20">
-														<div class="demo-card-square mdl-card mdl-shadow--2dp">
-																<div class="mdl-card__title mdl-card--expand">
-																		<h2 class="mdl-card__title-text">進捗率や販売率などの<br>
-																				比較を見える化</h2>
+														<div class="col-sm-4 col-xs-12 mgB-20">
+																<div class="demo-card-square mdl-card mdl-shadow--2dp">
+																		<div class="mdl-card__title mdl-card--expand">
+																				<h2 class="mdl-card__title-text">進捗率や販売率などの<br>
+																						比較を見える化</h2>
+																		</div>
+																		<div class="center"><img src="images/smartgarage/sgMieru.png" width="203" height="130" alt="SmartGarage Mieruka"></div>
+																		<div class="mdl-card__supporting-text">SmartGarage<br>
+																				Mieruka</div>
+																		<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#">準備中</a> </div>
 																</div>
-																<div class="center"><img src="images/smartgarage/sgMieru.png" width="203" height="130" alt="SmartGarage Mieruka"></div>
-																<div class="mdl-card__supporting-text">SmartGarage<br>
-																		Mieruka</div>
-																<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#">準備中</a> </div>
 														</div>
-												</div>
-												<div class="col-sm-4 col-xs-12 mgB-20">
-														<div class="demo-card-square mdl-card mdl-shadow--2dp">
-																<div class="mdl-card__title mdl-card--expand">
-																		<h2 class="mdl-card__title-text">現在地と移動経路を<br>
-																				一元管理で効率化</h2>
+														<div class="col-sm-4 col-xs-12 mgB-20">
+																<div class="demo-card-square mdl-card mdl-shadow--2dp">
+																		<div class="mdl-card__title mdl-card--expand">
+																				<h2 class="mdl-card__title-text">現在地と移動経路を<br>
+																						一元管理で効率化</h2>
+																		</div>
+																		<div class="center"><img src="images/smartgarage/sgIgn.png" width="186" height="130" alt="SmartGarage IGNITE"></div>
+																		<div class="mdl-card__supporting-text">SmartGarage<br>
+																				IGNITE</div>
+																		<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#">準備中</a> </div>
 																</div>
-																<div class="center"><img src="images/smartgarage/sgIgn.png" width="186" height="130" alt="SmartGarage IGNITE"></div>
-																<div class="mdl-card__supporting-text">SmartGarage<br>
-																		IGNITE</div>
-																<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#">準備中</a> </div>
 														</div>
-												</div>
-												<div class="col-sm-4 col-xs-12 ">
-														<div class="demo-card-square mdl-card mdl-shadow--2dp">
-																<div class="mdl-card__title mdl-card--expand">
-																		<h2 class="mdl-card__title-text">ユーザーの必要な<br>
-																				情報をMAP上に表示</h2>
+														<div class="col-sm-4 col-xs-12 ">
+																<div class="demo-card-square mdl-card mdl-shadow--2dp">
+																		<div class="mdl-card__title mdl-card--expand">
+																				<h2 class="mdl-card__title-text">ユーザーの必要な<br>
+																						情報をMAP上に表示</h2>
+																		</div>
+																		<div class="center"><img src="images/smartgarage/sgLoca.png" width="179" height="130" alt="SmartGarage Locator"></div>
+																		<div class="mdl-card__supporting-text">SmartGarage<br>
+																				Locator</div>
+																		<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#">準備中</a> </div>
 																</div>
-																<div class="center"><img src="images/smartgarage/sgLoca.png" width="179" height="130" alt="SmartGarage Locator"></div>
-																<div class="mdl-card__supporting-text">SmartGarage<br>
-																		Locator</div>
-																<div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#">準備中</a> </div>
 														</div>
 												</div>
 										</div>
@@ -229,15 +238,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</div>
 				</div>
 				<div id="order">
-						<div class="subContainer mgB-50">
+						<div class="subContainer">
 								<div class="container mainBox">
 										<div class="col-sm-6 left">
 												<h2>「欲しいものを欲しいままに」</h2>
-												<p class="left" id="order_title">オーダーメイド<br class="visible-xs">
-														サービス</p>
+												<p class="left" id="order_title">オーダーメイドサービス</p>
 												<p class="center"><a class="button green_btn" href="form/contact/index.php">お問い合わせはこちら</a></p>
 										</div>
-										<div class="col-sm-6 left">
+										<div class="col-sm-6 col-xs-12 left">
 												<p class="pa-15" style="margin-top: 50px">「SmartGarage」シリーズ開発で手がけてきた最新のテクノロジーや直感的に操作できるUI技術を活かして、独自のシステムを構築したいというお客様向けのシステム構築サービスです。小規模なものから大規模システムまで、ご要望に応じて最適な構築プランをご提案いたします。必要なのはアイデアと簡易的なイメージだけ。あなたの欲しいものを欲しいままに、システムを構築します。 </p>
 										</div>
 								</div>
@@ -246,11 +254,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<!-- informationここから -->
 				<div class="container_box mgB-50">
 						<div class="container mainBox">
-								<h2>information</h2>
+								<h2 style="margin-bottom: 0">information</h2>
 								<div class="col col-sm-9">
 										<div class="row info_p">
 												<div class="infomation"> 
 														<!--記事6-->
+														<div class="col col-md-2 col-sm-2 col-xs-4">
+																<p>2016/02/01</p>
+														</div>
+														<div class="col col-md-10  col-sm-10 col-xs-8">
+																<p>社名を「有限会社長靴倶楽部」から「株式会社Signite（シグナイト）」へ変更いたしました。<br>
+																		今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
+														</div>
 														<div class="col col-md-2 col-sm-2 col-xs-4">
 																<p>2015/11/01</p>
 														</div>
@@ -330,7 +345,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<!--information--> 
 										</div>
 								</div>
-								<div class="col col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <a href="security.php"><img class="mgB-20" src="images/company/imsm.png" width="100%" height="100%" alt="isms"> </a> </div>
+								<div class="col col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <a href="security.php"><img src="images/company/imsm.png" width="100%" height="100%" alt="isms"> </a> </div>
 						</div>
 						<!-- information ここまで --> 
 				</div>

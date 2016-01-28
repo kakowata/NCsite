@@ -34,7 +34,7 @@ function initialize() {
 	 var marker = new google.maps.Marker({
 			 position: Signite,
 			 map: map,
-			 icon: "images/smartgarage/sgmap.png",
+			 icon: "images/company/mapicon.png",
 			 draggable: true
 	 });
 

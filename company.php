@@ -53,8 +53,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 														</div>
 														<div class="row">
 																<div class="col-sm-6 col-xs-12 topText">
-																		<h1>Signite<br>
-																				CO., LTD.</h1>
+																		<h1>会社概要</h1>
+																		<p style="font-size: 30px">Signite Inc</p>
 																</div>
 																<div class="col-sm-6 col-xs-12 iconBox"> <img class="icon" src="images/company/com-img01.png" width="80%" height="80%" alt="会社概要"> </div>
 																<div class="col-sm-12 col-xs-12 topText">
@@ -349,7 +349,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		</div>
 																		<!-- 4.完成・納品　-->
 																		<div class="col-sm-12 col-xs-12 subContainer">
-																				<div class="col-lg-7 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-7 col-sm-offset-0 col-xs-12">
+																				<div class="col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-0 col-xs-12">
 																						<div class="flowBox4">
 																								<h3>完成・納品</h3>
 																								<p>動作テストを行いシステムの不備がないか確認し、操作マニュアル等を作成します。</p>
