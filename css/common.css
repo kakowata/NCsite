@@ -1405,7 +1405,7 @@ Maps
 }
 
 #maps .subContainer p{
-	font-size: 2rem;
+	font-size: 1.8rem;
 	text-align:left;
 	color:#fff;
 	line-height: 2rem;
@@ -1491,6 +1491,7 @@ Maps
 
 
 }
+
 
 #maps .subContainer01{	
 	padding:15px;

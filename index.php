@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																				<p class="hidden-xs"><img src="images/top/logo.png" width="60%" height="100%" alt="SIGNITE"></p>
 																				<p class="visible-xs"><img src="images/top/logo.png" width="90%" height="100%" alt="SIGNITE"></p>
 																				<p class="absolute hidden-xs">有限会社長靴倶楽部は、<br class="visible-xs">
-																						<span>株式会社Signite</span>（シグナイト）へ社名変更しました。<br>
+																						<span>株式会社Signite</span>（シグナイト）へ社名変更致します。<br>
 																						今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
 																		</div>
 																		<div class="bottom-tease">
@@ -62,19 +62,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 								<div class="subContainer left visible-xs center" id="top_smp_comment">
 										<p>有限会社長靴倶楽部は、<br>
-												<span>株式会社Signite</span>（シグナイト）へ<br>
-												社名変更しました。</p>
-										<p>今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
+												<span>株式会社Signite</span><br>（シグナイト）へ社名変更致しました。</p>
+										<p>今後も引き続きご支援賜りますよう、<br>お願い申し上げます。</p>
 								</div>
 								<div class="subContainer mgB-50 left" id="top_comment"> 私たちの社名である「Signite」は<span style="font-weight:bold"><br class="hidden-xs">
 										『世界のニーズにスマートな火をともす ～Smart Ignition Technology～ 』</span><br>
 										という思いを込めて、夢のあるサービスをご提供していきます。<br>
 										あなたの「アイデア」を「カタチ」にこれからも<br class="hidden-xs">
-										Webシステム開発＆インターネットを活用したビジネスをトータル的にサポートいたします！ </div>
+										Webシステム開発＆インターネットを活用したビジネスをトータル的にサポート致します！ </div>
 								<div class="container mainBox">
 										<div class="col-sm-12 col-xs-12 subContainer">
-												<div class="col-md-6 col-sm-6 col-xs-12 pa-15">
-														<h2>弊社はチームワークを<br>
+												<div class="col-md-6 col-sm-6 col-xs-12">
+														<h2>弊社はチームワークを<br class="hidden-xs">
 																大切にしています。</h2>
 														<h3>Signiteの3つの”チーム”</h3>
 												</div>
@@ -252,7 +251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</div>
 				</div>
 				<!-- informationここから -->
-				<div class="container_box mgB-50">
+				<div class="container_box">
 						<div class="container mainBox">
 								<h2 style="margin-bottom: 0">information</h2>
 								<div class="col col-sm-9">
