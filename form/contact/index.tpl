@@ -17,9 +17,9 @@
 <meta property="og:locale" content="ja" />
 --><!-- END facebook OGP -->
 <!-- style -->
-<link href="../../css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="../../css/common.css">
-<link rel="stylesheet" type="text/css" href="../../css/material.min.css">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/material.min.css">
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-				<?php include("../../header.php"); ?>
+				<?php include("../header.php"); ?>
 				<div class="row grey ">
 						<div class="col-sm-12 col-xs-12">
 								<div id="contact"> 
@@ -50,13 +50,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<div class="container mainBox"> 
 														<!--PCのみ表示-->
 														<div class="hidden-xs">
-																<div class="pan"><a href="../../index.php">HOME</a>&nbsp;&#62;&nbsp;お問い合わせ</div>
+																<div class="pan"><a href="../index.php">HOME</a>&nbsp;&#62;&nbsp;お問い合わせ</div>
 														</div>
 														<div class="row">
 																<div class="col-sm-6 col-xs-12 topText">
 																		<h1>お問い合わせ</h1>
 																</div>
-																<div class="col-sm-6 col-xs-12 iconBox"> <img class="icon" src="../../images/contact/con-img01-1.png" width="300" height="100%" alt="採用情報"> </div>
+																<div class="col-sm-6 col-xs-12 iconBox"> <img class="icon" src="../images/contact/con-img01-1.png" width="300" height="100%" alt="採用情報"> </div>
 														</div>
 														<div class="row">
 																<div class="col-sm-12 col-xs-12 topText">
@@ -75,7 +75,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 														<p class="pagedown"><a href="#page2"></a></p>
 														<!--input type="button" class="pagedown" href="#page2" value="Scroll"--> 
 												</div>
-												<img class="mgB-50" src="../../images/contact/con-img03.png" width="100%" height="100%" alt="company"> </div>
+												<img class="mgB-50" src="../images/contact/con-img03.png" width="100%" height="100%" alt="company"> </div>
 										<div class="container mainBox">
 												<div id="page2">
 														<p class="left">以下のフォームに必要事項をご入力の上、お問い合わせ下さい。後ほど担当者より折り返しご連絡いたします。</p>
@@ -203,33 +203,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																</div>
 														</form>
 												</div>
-												<?php include("../../contact_box.php"); ?>
+												<?php include("../contact_box.php"); ?>
 										</div>
 								</div>
 								<!-- Topへ戻る -->
 								<p id="page-top"><a href="#allContent"></a></p>
 						</div>
 						<!-- footer -->
-						<?php include("../../footer.php"); ?>
+						<?php include("../footer.php"); ?>
 				</div>
 				<!-- contact end --> 
 		</div>
 </div>
 <!--allContent end -->
-<link rel="stylesheet" href="../../css/liquid-slider.css">
-<link href="../../css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="../css/liquid-slider.css">
+<link href="../css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-<script src="../../js/bootstrap.min.js"></script> 
-<script src="../../js/jquery.fs.boxer.js"></script> 
-<script src="../../js/common.js"></script> 
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/jquery.fs.boxer.js"></script> 
+<script src="../js/common.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
 <script src="/js/jquery.easing.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script> 
-<script src="../../js/jquery.liquid-slider.min.js"></script> 
-<script src="../../js/material.min.js" type="text/javascript"></script> 
-<script src="../../js/common.js" type="text/javascript"></script>
+<script src="../js/jquery.liquid-slider.min.js"></script> 
+<script src="../js/material.min.js" type="text/javascript"></script> 
+<script src="../js/common.js" type="text/javascript"></script>
 </body>
 </html>

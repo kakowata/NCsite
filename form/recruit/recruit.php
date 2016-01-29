@@ -18,8 +18,8 @@
 --><!-- END facebook OGP -->
 <!-- style -->
 <link href="../../css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="../../css/common.css">
-<link rel="stylesheet" type="text/css" href="../../css/material.min.css">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/material.min.css">
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-				<?php include("../../header.php"); ?>
+				<?php include("../header.php"); ?>
 				<div class="row grey ">
 						<div class="col-sm-12 col-xs-12">
 								<div id="contact"> 
@@ -50,13 +50,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												<div class="container mainBox"> 
 														<!--PCのみ表示-->
 														<div class="hidden-xs">
-																<div class="pan"><a href="../../index.php">HOME</a>&nbsp;&#62;&nbsp;採用情報</div>
+																<div class="pan"><a href="../index.php">HOME</a>&nbsp;&#62;&nbsp;採用情報</div>
 														</div>
 														<div class="row">
 																<div class="col-sm-6 col-xs-12 topText">
 																		<h1>採用情報</h1>
 																</div>
-																<div class="col-sm-6 col-xs-12 iconBox"> <img class="icon" src="../../images/recruit/ric-img01.png" width="80%" height="80%" alt="採用情報"> </div>
+																<div class="col-sm-6 col-xs-12 iconBox"> <img class="icon" src="../images/recruit/ric-img01.png" width="80%" height="80%" alt="採用情報"> </div>
 														</div>
 														<div class="row">
 																<div class="col-sm-12 col-xs-12 topText">
@@ -69,13 +69,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										</div>
 										<!-- topContent ここまで　--> 
 										<!--PC表示-->
-										<div class="visible-xs"> <img class="icon" src="../../images/contact/con-img03s.png" width="100%" alt="company"> </div>
+										<div class="visible-xs"> <img class="icon" src="../images/contact/con-img03s.png" width="100%" alt="company"> </div>
 										<div class="hidden-xs">
 												<div class="bottom-tease">
 														<p class="pagedown"><a href="#page2"></a></p>
 														<!--input type="button" class="pagedown" href="#page2" value="Scroll"--> 
 												</div>
-												<img class="mgB-50" src="../../images/recruit/ric-img02.png" width="100%" alt="採用情報"> </div>
+												<img class="mgB-50" src="../images/recruit/ric-img02.png" width="100%" alt="採用情報"> </div>
 										<div class="container mainBox">
 												<section id="page2">
 														<h2>募集要項</h2>
@@ -282,7 +282,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																						</div>
 																				</div>
 																		</div>
-																		<?php include("../../contact_box.php"); ?>
+																		<?php include("../contact_box.php"); ?>
 																</div>
 														</div>
 												</section>
@@ -291,7 +291,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										</div>
 										<!--container mainBox end --> 
 										<!-- footer -->
-										<?php include("../../footer.php"); ?>
+										<?php include("../footer.php"); ?>
 								</div>
 								<!-- contact end --> 
 						</div>
@@ -299,20 +299,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 </div>
 <!--allContent end -->
-<link rel="stylesheet" href="../../css/liquid-slider.css">
-<link href="../../css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="../css/liquid-slider.css">
+<link href="../css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-<script src="../../js/bootstrap.min.js"></script> 
-<script src="../../js/jquery.fs.boxer.js"></script> 
-<script src="../../js/common.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/jquery.fs.boxer.js"></script> 
+<script src="../js/common.js"></script> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
 <script src="/js/jquery.easing.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script> 
-<script src="../../js/jquery.liquid-slider.min.js"></script> 
-<script src="../../js/material.min.js" type="text/javascript"></script> 
-<script src="../../js/common.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script> 
+<script src="../js/jquery.liquid-slider.min.js"></script> 
+<script src="../js/material.min.js" type="text/javascript"></script> 
+<script src="../js/common.js" type="text/javascript"></script>
 </body>
 </html>

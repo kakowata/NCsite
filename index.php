@@ -43,17 +43,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																<!--pc表示-->
 																<div class="container_box">
 																		<div class="center-fix">
-																				<h1>Google Maps を利用したWebシステム開発なら</h1>
-																				<p class="hidden-xs"><img src="images/top/logo.png" width="60%" height="100%" alt="SIGNITE"></p>
-																				<p class="visible-xs"><img src="images/top/logo.png" width="90%" height="100%" alt="SIGNITE"></p>
-																				<p class="absolute hidden-xs">有限会社長靴倶楽部は、<br class="visible-xs">
-																						<span>株式会社Signite</span>（シグナイト）へ社名変更致します。<br>
+																				<div class="col-md-8 col-md-offset-0 col-sm-7 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+																						<h1>Google Maps を利用した<br>Webシステム開発なら<br>株式会社Signite<span>（シグナイト）</span>へ</h1>
+																						<p class="absolute hidden-xs">有限会社長靴倶楽部は、<br>
+																						<span>株式会社Signite</span>（シグナイト）へ<br>社名変更致しました。<br>
 																						今後も引き続きご支援賜りますよう、お願い申し上げます。</p>
+																				</div>
+																				<div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-4">
+																						<p><img src="images/logo2.svg" width="100%" height="100%" alt="SIGNITE"></p>
+																				</div>
 																		</div>
-																		<div class="bottom-tease">
-																				<p class="pagedown"><a href="#smartgarage_div"></a></p>
-																				<!--input type="button" class="pagedown" id="smartgarage_div" value="Scroll"--> 
-																		</div>
+																</div>
+																<div class="bottom-tease" style="clear: both">
+																		<p class="pagedown"><a href="#smartgarage_div"></a></p>
+																		<!--input type="button" class="pagedown" id="smartgarage_div" value="Scroll"--> 
 																</div>
 																<!--pc表示ここまで--> 
 														</div>
@@ -62,12 +65,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 								<div class="subContainer left visible-xs center" id="top_smp_comment">
 										<p>有限会社長靴倶楽部は、<br>
-												<span>株式会社Signite</span><br>（シグナイト）へ社名変更致しました。</p>
-										<p>今後も引き続きご支援賜りますよう、<br>お願い申し上げます。</p>
+												<span>株式会社Signite</span><br>
+												（シグナイト）へ社名変更致しました。</p>
+										<p>今後も引き続きご支援賜りますよう、<br>
+												お願い申し上げます。</p>
 								</div>
 								<div class="subContainer mgB-50 left" id="top_comment"> 私たちの社名である「Signite」は<span style="font-weight:bold"><br class="hidden-xs">
 										『世界のニーズにスマートな火をともす ～Smart Ignition Technology～ 』</span><br>
-										という思いを込めて、夢のあるサービスをご提供していきます。<br>
+										という思いを込めて、夢のあるサービスをご提供致します。<br>
 										あなたの「アイデア」を「カタチ」にこれからも<br class="hidden-xs">
 										Webシステム開発＆インターネットを活用したビジネスをトータル的にサポート致します！ </div>
 								<div class="container mainBox">

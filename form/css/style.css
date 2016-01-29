@@ -1,0 +1,1106 @@
+@charset "utf-8";
+
+/***** *****/
+@import "reset.css";
+
+*{
+	font-family:'Lucida Grande',
+ 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+  Meiryo, メイリオ, sans-serif;
+	color:#444;
+	font-size:13px;
+}
+
+/************************************クリアー関係
+
+float直前の要素にクラスclearを入れる
+
+***************************************************/
+
+.clear:after {
+	content: ".";  /* 新しい要素を作る */
+	display: block;  /* ブロックレベル要素に */
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clear {
+	min-height: 1px;
+}
+* html .clear {
+	height: 1px;/*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+.clearb {
+	clear:both;/**直前のクラスにclearを入れられないと時用**/
+}
+
+/************************************共通　
+
+主にヘッダー、フッター
+
+******************************/
+
+/**ヘッダー**/
+
+.headerTop{
+	background: #e9e9e9;
+	height: 90px;
+}
+
+.headerTop .title{
+	float: left;
+	line-height: 60px;
+}
+.headerTop .headContact{
+	float: right;
+	line-height: 65px;
+}
+
+header .headNav01{
+	background: url(../images/common/menuBack.jpg) no-repeat;
+	background-repeat:repeat-x;
+	overflow:hidden;
+	position: relative;
+	
+}
+
+header .headNav01 ul{
+  	float: left;
+ 	left: 50%;
+	position: relative;
+}
+
+header .headNav01 li{
+	display: block;
+	float: left;
+	height:50px;
+	left: -50%;
+	padding: 0px;
+  	position: relative;
+	z-index:100;
+
+}
+
+header .headNav01 li a{
+	display: block;
+	font-size: 20px;
+	height: 41px;
+	padding: 0;
+	line-height:41px;
+}
+
+header .headNav01 a:hover{
+	z-index:100;
+}
+
+/**スマホ**/
+
+.headerTop02{
+	background: #e9e9e9;
+	height: 55px;
+}
+
+.headerTop02 .title{
+	float: left;
+	line-height: 40px;
+}
+.headerTop02 .headContact02{
+	float: right;
+	line-height: 43px;
+}
+
+header .headNav02 ul{
+	width:100%;
+}
+
+header .headNav02 li{
+	display: block;
+	float: left;
+	padding: 0px;
+	width:25%;
+
+}
+
+header .headNav01 li a{
+	display: block;
+}
+
+.space{
+	height:20px;
+}
+
+
+.footerMenu01-sp nav{
+	background: url(../images/common/footerMenuBack.png);
+	height: 50x;
+}
+
+.footerMenu01-sp nav li{
+
+	margin-right:2%;
+}
+
+.footerMenu01-sp nav li.footerList02{
+		float: left;
+		margin-top:5px;
+}
+
+.footerMenu01-sp nav li.footerList03{
+	float:right;
+	margin-bottom:10px;
+}
+
+.footertitle{
+	font-size:200%;
+	color:#fff;}
+
+
+/**フッター**/
+
+.footerMenu01 nav{
+	background: url(../images/common/footerMenuBack.png);
+	height: 69px;
+}
+
+.footerMenu01 nav li{
+	float: left;
+	width:18%;
+	margin-right:2%;
+}
+
+.footerMenu01 nav li.footerList01{
+	line-height:35px;
+}
+
+.footerMenu01 nav li.footerList02{
+	line-height:40px;
+}
+
+.footerMenu02{
+	background: #000;
+	padding-bottom:50px;
+}
+
+.footerMenu02 nav ul{
+	margin:20px 0;
+}
+
+.footerMenu02 nav li{
+	color: #fff;
+	float: left;
+}
+
+.footerMenu02 nav li a{
+	color: #fff;
+}
+
+.footerMenu02 p,
+.footerMenu02 p small{
+	color: #fff;
+}
+
+
+/**ボタン**/
+.btn-primary{
+	background:#ff8a00;
+	border-color:#ff8a00;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #ad5e00;
+  border-color: #ad5e00;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #ad5e00;
+  border-color: #ad5e00;
+}
+.btn-primary .badge {
+  color: #ad5e00;
+  background-color: #fff;
+}
+/************************************index　
+
+トップページ
+
+******************************/
+
+
+.topImage .itemBox{
+	margin-top:-9px;
+	text-align:center;
+}
+	
+.topImage .item p{
+	text-align:center;
+}
+.contentBox01{	/* box-shadow */
+border-top:6px solid #ff8a00;
+box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+padding:0 20px;
+position:relative;
+height:320px;
+}
+
+.contentBox01 h2{
+	font-size:18px;
+	font-weight:bold;
+    height: 40px;
+	margin:15px 0;
+	}
+	
+.contentBox01 p{
+	line-height:170%;
+}
+
+.detailBtn01{
+	position:absolute;
+	bottom:20px;
+	left:36%;
+}
+
+.detailBtn02{
+	position:absolute;
+	bottom:20px;
+	left:22%;
+}
+
+#info h3 {
+    background: #ff8a00;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 1.6em;
+}
+
+.infomation{
+	border:1px solid #ff8a00;
+	margin: 0 0 25px;
+    height: 160px;
+    overflow: auto;
+}
+
+.infomation .info_p {
+    margin: 5px 10px;
+}
+
+.infomation .info_p p {
+    padding: 5px 0;
+}
+
+nav ul.container {
+    padding-top: 12px;
+}
+
+.banner p{
+	margin:30px 0;
+    overflow: hidden;
+}
+
+.mapsH2{
+	background:url(../images/top/h2-01.png) no-repeat;
+	line-height:40px;
+	padding-left:60px;
+}
+.mapsH2 a,
+.webH2 a,
+.ecH2 a{
+	color:#000;
+	font-size:20px;}
+
+
+.webH2{
+	background:url(../images/top/h2-02.png) no-repeat;
+	line-height:40px;
+	padding-left:60px;
+}
+
+.ecH2{
+	background:url(../images/top/h2-03.png) no-repeat;
+	line-height:40px;
+	padding-left:60px;
+}
+
+/*********************************
+SmartGarage 追加
+*********************************/
+
+.contentBox_sg01{	/* box-shadow */
+border-top:6px solid #d9534f;
+box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+padding:0 20px;
+margin-bottom:10px;
+position:relative;
+height:330px;
+}
+.contentBox_sg01 h2{
+	font-size:18px;
+	font-weight:bold;
+    height: 40px;
+	margin:15px 0;
+	}
+	
+.contentBox_sg01 p{
+	line-height:170%;
+}
+
+.contentBox_sg02{	/* box-shadow */
+border-top:6px solid #5bc0de;
+box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+padding:0 20px;
+margin-bottom:10px;
+position:relative;
+height:330px;
+}
+.contentBox_sg02 h2{
+	font-size:18px;
+	font-weight:bold;
+    height: 40px;
+	margin:15px 0;
+	}
+	
+.contentBox_sg02 p{
+	line-height:170%;
+}
+
+.contentBox_sg03{	/* box-shadow */
+border-top:6px solid #5cb85c;
+box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+padding:0 20px;
+margin-bottom:10px;
+position:relative;
+height:330px;
+}
+.contentBox_sg03 h2{
+	font-size:18px;
+	font-weight:bold;
+    height: 40px;
+	margin:15px 0;
+	}
+	
+.contentBox_sg03 p{
+	line-height:170%;
+}
+
+.detailBtn01{
+	position:absolute;
+	bottom:20px;
+	left:36%;
+}
+
+.detailBtn02{
+	position:absolute;
+	bottom:20px;
+	left:22%;
+}
+
+.sgmH2{
+	background:url(../images/top/h2-04.png) no-repeat;
+	line-height:40px;
+	padding-left:60px;
+}
+.sgmH2 a,
+.sgmapH2 a,
+.sgdH2 a{
+	color:#000;
+	font-size:20px;}
+
+
+.sgmapH2{
+	background:url(../images/top/h2-05.png) no-repeat;
+	line-height:40px;
+	padding-left:60px;
+}
+
+.sgdH2{
+	background:url(../images/top/h2-06.png) no-repeat;
+	line-height:40px;
+	padding-left:60px;
+}
+.sgmH2{
+	background:url(../images/top/h2-04.png) no-repeat;
+	line-height:40px;
+	padding-left:60px;
+}
+/************************************index　
+
+下層共通
+
+******************************/
+
+.bread{
+	margin-bottom:5px;
+}
+
+.bread a{
+	color:#333;
+	font-weight:bold;
+}
+
+.under h1{
+	background: #e9e9e9;
+	font-size: 24px;
+	height: 61px;
+	line-height: 61px;
+	margin-bottom: 15px;
+	padding-left: 21px;
+}
+
+/************************************index　
+
+会社概要
+
+******************************/
+
+.companyContent{
+	border-top:6px solid #ff8a00;
+	box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	padding:0 20px;
+}
+
+.companyContent h2{
+	margin:25px 10px 20px 0;
+}
+
+.comoanyExplanation{
+	margin:25px 0px 20px 0;
+	padding-left:40px;
+}
+
+.companyTable,
+.recruitTable {
+	width: 100%;
+	margin-bottom:60px;
+}
+
+
+.companyTable th,
+.recruitTable th {
+	background:#fef1c9;
+	border:1px solid #ccc;
+	font-weight: bold;
+	text-align:center;
+	padding:5px;
+	vertical-align:middle;
+}
+
+.companyTable td,
+.recruitTable td  {
+	border: 1px solid #ccc;
+	padding:5px 20px;
+}
+
+.map{
+	border:1px solid #ccc;
+	border-top: none;
+}
+
+.recruitTable h3 {
+    margin: 5px 0;
+}
+
+
+/************************************index　
+
+サービス
+
+******************************/
+.serviceBox{
+	border-top:6px solid #ff8a00;
+	box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	padding:0 20px;
+	margin-bottom:15px;
+}
+
+.orange{
+	color:#ff8a00;
+}
+
+.serviceBox h2{
+	margin: 15px 0;
+}
+
+.serviceBox p{
+	margin-bottom:15px;
+}
+
+.service .button{
+	margin: 20px 0 15px;
+	text-align:right;
+}
+
+.service .buttonSp{
+	margin-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+
+.service .right{
+	box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	margin-bottom:15px;
+}
+
+
+.service h3{
+	background:#ff8a00;
+	color:#fff;
+	font-size:19px;
+	font-weight:bold;
+	line-height:59px;
+	padding-left:20px;
+	height: 54px;
+}
+
+.service h4{
+	border-bottom:3px solid #ff8a00;
+	border-top:3px solid #ff8a00;
+	font-size:15px;
+	font-weight:bold;
+	line-height:28px;
+	padding-left:16px;
+	height: 30px;
+}
+
+.serviceRightBox01 img,
+.serviceRightBox02 img,
+.serviceRightBox03 img,
+.serviceRightBox04 img{
+	float: left;
+	margin:0 16px 10px 20px;
+}
+
+.serviceRightBoxRight p{
+	padding:10px 20px 5px 10px;
+}
+
+.serviceRightBoxRight li{
+	background:url(../images/service/circle.jpg) no-repeat 66px 1px;
+	line-height:30px;
+	height:30px;
+	padding-left: 96px;
+	font-weight:bold;
+}
+
+/************************************index　
+
+活用事例
+
+******************************/
+.caseBox{
+	border-top:6px solid #ff8a00;
+	box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	padding:0 20px;
+	margin-bottom:15px;
+}
+.caseBox h2{
+	margin:10px 0;}
+.caseBox h3{
+	color: #ff8a00;
+	font-size:22px;
+	font-weight:bold;
+	margin:10px 0 0 20px;
+}
+
+.caseBox ul{
+	background:#ddd;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;
+	padding: 30px;
+	margin:10px 0;
+}
+
+.caseBox li{
+	background:url(../images/case/liFront.jpg) no-repeat 0px 2px;
+	padding-left:16px;
+	margin-bottom:3px;
+}
+
+.caseBox .man{
+	margin-top:-10px;
+}
+
+.caseBox .postera{
+	margin-top:15px;
+}
+
+.caseBox .button{
+	margin-top:20px;
+	padding-bottom:20px;
+	text-align:right;
+}
+
+.caseBox .buttonSp{
+	margin-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+.bUnder{
+	margin-top:5px;}
+
+.caseBox02{
+	border:3px solid #ff8a00;
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;
+	padding:0 10px;
+	margin-bottom:15px;
+}
+
+.caseBox02 h4{
+	color:#ff8a00;
+	font-size:17px;
+	border-bottom:2px solid #ff8a00;
+	margin:10px 0;
+	padding-bottom:5px;
+	font-weight:bold;
+}
+
+.caseImg{
+    border: 1px solid #ddd;
+	margin-top:10px;
+}
+
+.caseBox02 p{
+	margin:10px 0 10px 8px;
+}
+
+.catType img{
+	margin-left:1%;
+}
+
+.cat01{
+	margin-left:0 !important;
+}
+
+.caseOrder{
+	text-align:right;
+	margin-bottom:10px;
+}
+/************************************index　
+
+情報セキュリティ方針
+
+******************************/
+
+#security {
+	border-top:6px solid #ff8a00;
+	box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	padding: 20px;
+}
+
+#security .securityText {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+#security .sign {
+    margin-top: 20px;
+}
+
+
+/************************************index　
+
+お問い合わせ
+
+******************************/
+
+.contactTable{
+	border-top:1px solid #666;
+	width: 100%;
+	margin-bottom:20px;
+}
+
+
+.contactTable th{
+	background:#fef1c9;
+	border:1px solid #666;
+	font-weight: bold;
+	text-align:center;
+	padding:5px;
+	vertical-align:middle;
+}
+.contactTable td{
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+	padding:5px 20px;
+
+}
+
+
+.contactTableSp{
+	border:1px solid #666;
+	width: 100%;
+	margin-bottom:20px;
+	margin-left:-10px;
+}
+
+.contactTableSp th{
+	background:#fef1c9;
+	border:1px solid #ccc;
+	font-weight: bold;
+	text-align:center;
+	padding:5px;
+	vertical-align:middle;
+}
+.contactTableSp td{
+	padding:5px 20px;
+}
+
+
+.contactContent{
+	border-top:6px solid #ff8a00;
+	box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	padding:0 20px 1px;
+	margin-bottom:40px;
+}
+
+.contactExplanation{
+	margin:5px 0px 25px 0;
+	padding-left:20px;
+}
+
+.contactExplanation p {
+    margin-bottom: 5px;
+}
+
+.contactContent h2{
+	margin:25px 10px 20px 0;
+}
+
+.tell,
+.fax,
+.easy{
+	margin:10px 0px 0px 0;
+	padding-left:20px;
+}
+
+.contactForm{
+	padding-left: 3px;
+	margin-top:20px;
+}
+.contactContent .red{
+	color: red;
+	font-weight:bold;
+}
+
+.contactContent .orange{
+	color:#ff8a00;
+	font-weight:bold;
+}
+
+.contactContent .strong{
+	font-weight:bold;
+}
+
+.contactThanks01{
+	text-align: center;
+	margin: 30px 0 0;
+	font-size: 17px;
+}
+
+.contactThanks02{
+	text-align: center;
+	margin: 20px 0 0;
+	font-size: 17px;
+}
+
+
+.contactThanks03{
+	text-align: center;
+	margin: 25px 0 0;
+	padding-bottom: 15px;
+}
+
+.kiyaku {
+    background-color: #eee;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.kiyaku ul,
+.kiyaku ol{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 2px 30px;
+}
+
+
+/************************************index　
+
+404
+
+******************************/
+
+.under h1.none{
+	background:none;
+	padding-left:0px;
+height:20px;
+line-height:30px;}
+
+
+/************************************index　
+
+プレスリリースページ
+
+******************************/
+
+#pressrelease {
+	border-top:6px solid #ff8a00;
+	box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-webkit-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	-moz-box-shadow:rgba(113, 135, 164, 0.1) 0px 0px 5px 3px;
+	padding: 20px;
+}
+
+#pressrelease h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#pressrelease h3 {
+    border-top: 2px dotted #ff8a00;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+#pressrelease h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#pressrelease p {
+    margin-bottom: 10px;
+}
+
+#pressimg p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/************************************index　
+
+マップスソリューション
+ECソリューソン
+
+******************************/
+
+
+#maps01 h2,
+#ec01 h2{
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom: 10px;
+    clear: both;
+    background-color: #eee;
+    padding: 15px 20px;
+}
+
+#maps01 section,
+#ec01 section {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.googleBox{
+	margin:20px 0;
+}
+
+.googleBox h3{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+
+#ec01 h3{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+    padding: 10px;
+    background: #eee;
+}
+
+#ec01 h4{
+	font-size:12px;
+	font-weight:bold;
+ /**   background:#ff8a00;**/
+	margin-bottom:10px;
+    padding: 10px;
+}
+
+.googleBox img{
+	float:left;
+	margin-right:15px;
+}
+
+.infrastructure p.img{
+	text-align:center;
+}
+
+.infrastructure h3{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.pd-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sub_text {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.img_line {
+    border: 1px solid #ccc;
+}
+
+
+/************************************index　
+
+isms
+
+******************************/
+
+#imsm h2{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+    padding: 10px;
+    background: #eee;
+	margin-top:10px;
+}
+
+#imsm .securityText {
+    font-size: 14px;
+    margin: 5px 0 10px 20px;
+}
+
+/************************************index　
+
+SmartGarage
+
+******************************/
+
+#smg h2{
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom: 10px;
+    clear: both;
+    background-color: #eee;
+    padding: 15px 20px;
+}
+
+#smg section {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.sgm_box01 {
+	margin:20px 0;
+}
+
+.icon_box {
+	margin:30px 0;
+}
+
+.sgm_box01 {
+	margin:20px 0;
+}
+
+.sgm_box02 {
+	margin:20px 0 40px 0;
+}
+
+.imgBox {
+	height: 300px;
+	margin:10px 0 5px 0;
+	text-align:center;
+}
+.textBox {
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 70px;
+}
+
+.sgm_box03 {
+	margin:20px 0;
+	padding-left: 20px;
+}
+.sgm_box04 {
+	margin:20px 0;
+}
+.sgm_box04 .table{
+	margin:10px 0px;
+}
+
+#smg td {
+	text-align: center;
+}
+#smg th {
+	text-align: center;
+	font-weight: bold;
+}
+
+.well .textBox {
+}
+.sgm_box05 {
+	margin:20px 0;
+	text-align:center;
+}

@@ -16,7 +16,7 @@ $templates = array(
 	'mail_admin' => 'mailtemplate_admin.tpl',
 	'mail_user' => 'mailtemplate_user.tpl',
 	//http://から絶対URLで記載
-	'thanks' => 'http://signaite.jp/form/recruit/thanks.php',
+	'thanks' => 'http://signite.jp/form/recruit/thanks.php',
 	//戻るボタンのvalue htmlと合わせる
 	'backbtn_value' => '内容を修正する',
 );

@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="allContent"> 
 		<!-- ヘッダーナビゲーションバー -->
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-		<?php include("header.php"); ?>
+				<?php include("header.php"); ?>
 				<div class="row grey ">
 						<div class="col-sm-12 col-xs-12">
 								<div id="con"> 
@@ -202,16 +202,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		</div>
 																</div>
 																<!-- GoogleMaps 表示 -->
-																<div id="googlemaps">
-																		<!-- レイヤー -->
-																		<div class="col-sm-7 col-xs-12" id="layer"></div>
-																		<div class="col-sm-7 col-xs-12" id="map_canvas"></div>
-																		<div class="col-sm-5 col-xs-12">
-																				<div id='pano'></div>
-																				<p style='margin: 20px 10px'><span style='font-size: 24px;'>株式会社Signite</span><br>
+																<div id="googlemaps"> 
+																		<div class="col-sm-8 col-xs-12">
+																		<div id="map_canvas"></div>
+																		<div id="itial_value"><input type="button"id="signite" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="元の位置にもどる"></div>
+																		</div>
+																		<div class="col-sm-4 col-xs-12">
+																		<div id='pano'></div>
+																		<p style='margin: 20px 10px'><span style='font-size: 24px;'>株式会社Signite</span><br>
 																						〒183-0023<br>
 																						東京都府中市宮町2丁目15-13第15三ツ木ビル6F</p>
-																				<div id="directions_panel"></div>
 																		</div>
 																</div>
 																<div class="visible-xs text-center mgB-20">

@@ -18,12 +18,12 @@
 <meta property="og:locale" content="ja" />
 --><!-- END facebook OGP -->
 <!-- style -->
-<link href="../../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="../../css/common.css">
-<link rel="stylesheet" type="text/css" href="../../css/material.min.css">
-<link rel="stylesheet" href="../../css/liquid-slider.css">
-<link href="../../css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/material.min.css">
+<link rel="stylesheet" href="../css/liquid-slider.css">
+<link href="../css/jquery.fs.boxer.min.css" type="text/css" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
@@ -88,15 +88,15 @@
 <!--allContent end -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-<script src="../../js/bootstrap.min.js"></script> 
-<script src="../../js/jquery.fs.boxer.js"></script> 
-<script src="../../js/common.js"></script> 
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/jquery.fs.boxer.js"></script> 
+<script src="../js/common.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
 <script src="/js/jquery.easing.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script> 
-<script src="../../js/jquery.liquid-slider.min.js"></script> 
-<script src="../../js/material.min.js" type="text/javascript"></script> 
-<script src="../../js/common.js" type="text/javascript"></script> 
+<script src="../js/jquery.liquid-slider.min.js"></script> 
+<script src="../js/material.min.js" type="text/javascript"></script> 
+<script src="../js/common.js" type="text/javascript"></script> 
         
 
 </body>
