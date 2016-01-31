@@ -2769,7 +2769,15 @@ Map
 	bottom: 20px;
 }
 
-#itial_value .mdl-button {
+#root_value {
+	position: absolute;
+	left: 20px;
+	bottom: 80px;
+}
+
+
+#itial_value .mdl-button,
+#root_value .mdl-button {
 	font-size: 12px;
 	padding: 0px 25px;
 	background-color: #F93;
@@ -2779,7 +2787,8 @@ Map
 	border: 2px solid #F93;
 }
 
-#itial_value .mdl-button:hover {
+#itial_value .mdl-button:hover,
+#root_value .mdl-button:hover {
 	background-color: #fff;
 	color: #F93;
 }

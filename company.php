@@ -205,6 +205,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																<div id="googlemaps"> 
 																		<div class="col-sm-8 col-xs-12">
 																		<div id="map_canvas"></div>
+																		<div id="root_value"><input type="button"id="root" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="ルート表示"></div>
 																		<div id="itial_value"><input type="button"id="signite" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="元の位置にもどる"></div>
 																		</div>
 																		<div class="col-sm-4 col-xs-12">
@@ -380,7 +381,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&language=jp"></script> 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?language=jp"></script> 
 <script src="./js/maps.js" type="text/javascript"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
