@@ -202,17 +202,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		</div>
 																</div>
 																<!-- GoogleMaps 表示 -->
-																<div id="googlemaps"> 
+																<div id="googlemaps" style="border: 1px solid #ccc">
 																		<div class="col-sm-8 col-xs-12">
-																		<div id="map_canvas"></div>
-																		<div id="root_value"><input type="button"id="root" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="ルート表示"></div>
-																		<div id="itial_value"><input type="button"id="signite" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="元の位置にもどる"></div>
+																				<div id="map_canvas"></div>
+																				<div id="itial_value">
+																						<input type="button"id="signite" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="元の位置にもどる">
+																				</div>
+																				<div id='pano'></div>
 																		</div>
 																		<div class="col-sm-4 col-xs-12">
-																		<div id='pano'></div>
-																		<p style='margin: 20px 10px'><span style='font-size: 24px;'>株式会社Signite</span><br>
+																				<div id="root_value">
+																						<input type="text" placeholder="出発地点を入力してください" id="address" value="府中駅"> <input type="button"id="root" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="ルート表示">
+																				</div>
+																				<div id="root_list">
+																				
+																				
+																				</div>
+																				<!--<p style='margin: 20px 10px'><span style='font-size: 24px;'>株式会社Signite</span><br>
 																						〒183-0023<br>
 																						東京都府中市宮町2丁目15-13第15三ツ木ビル6F</p>
+																		</div>--> 
 																		</div>
 																</div>
 																<div class="visible-xs text-center mgB-20">

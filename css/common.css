@@ -2739,11 +2739,11 @@ Map
 	 width:100%; 
 	 overflow:hidden; 
 	 margin-bottom: 40px; 
-	 position: relative
+	position: relative
 }
 
 #map_canvas {
-		height:400px;
+	height:400px;
 }
 
 #pano {
@@ -2765,16 +2765,26 @@ Map
 
 #itial_value {
 	position: absolute;
-	left: 20px;
-	bottom: 20px;
+	left: 10px;
+	top: 340px;
 }
 
 #root_value {
-	position: absolute;
-	left: 20px;
-	bottom: 80px;
+	padding: 10px 0 ;
+	text-align: right;
 }
 
+@media (min-width:768px){
+	#root_list {
+		overflow: auto;
+		height: 642px;
+		padding: 0 10px 10px;
+		background-color: #efefef
+	}
+	.adp {
+		background: #fefefe;
+	}
+}
 
 #itial_value .mdl-button,
 #root_value .mdl-button {
@@ -2783,7 +2793,7 @@ Map
 	background-color: #F93;
 	color: #fff;
 	height: 38px;
-  border-radius: 5px;
+  	border-radius: 5px;
 	border: 2px solid #F93;
 }
 
