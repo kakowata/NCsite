@@ -212,6 +212,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 																		</div>
 																		<div class="col-sm-4 col-xs-12">
 																				<div id="root_value">
+																						株式会社Signiteまでのルートを検索</br>
 																						<input type="text" placeholder="出発地点を入力してください" id="address" value="府中駅"> <input type="button"id="root" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="ルート表示">
 																				</div>
 																				<div id="root_list">

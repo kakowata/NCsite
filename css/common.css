@@ -2748,7 +2748,7 @@ Map
 
 #pano {
 		width:100%;
-		height:300px;
+		height:240px;
 }
 
 #directions_panel {
@@ -2766,20 +2766,19 @@ Map
 #itial_value {
 	position: absolute;
 	left: 10px;
-	top: 340px;
+	top: 350px;
 }
 
 #root_value {
-	padding: 10px 0 ;
-	text-align: right;
+	padding: 10px 5px;
 }
 
 @media (min-width:768px){
 	#root_list {
 		overflow: auto;
-		height: 642px;
+		height: 562px;
 		padding: 0 10px 10px;
-		background-color: #efefef
+		background: url(../images/top/signite_bg.png) no-repeat 100px center #eeeeee;
 	}
 	.adp {
 		background: #fefefe;
@@ -2793,8 +2792,9 @@ Map
 	background-color: #F93;
 	color: #fff;
 	height: 38px;
-  	border-radius: 5px;
+  border-radius: 5px;
 	border: 2px solid #F93;
+	margin: 0;
 }
 
 #itial_value .mdl-button:hover,
